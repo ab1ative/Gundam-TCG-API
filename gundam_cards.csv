@@ -1,0 +1,441 @@
+Name,Color,Rarity,Level,Cost,Type,AP,HP,Zone,Trait,Link,Skill,Source,Card #,Edition
+Nahel Argama,Blue,U,3,2,BASE,-,5,Space Earth,(Earth Federation) (Warship),-,"【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. Then, choose 1 enemy Unit with 3 or less HP. Rest it.",GD01,123,1
+Side 7,Blue,C,1,1,BASE,-,4,Space,(Earth Federation) (Stronghold),-,【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. 【Activate･Main】Rest this Base：Choose 1 friendly Unit. It recovers 1 HP.,GD01,124,1
+Zanzibar,Green,U,4,2,BASE,-,5,Space Earth,(Zeon) (Warship),-,"【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. Then, if it is your turn, you may deploy 1 (Zeon) Unit card that is Lv.4 or lower from your hand.",GD01,125,1
+Underground Desert Base,Green,C,2,1,BASE,-,6,Earth,(Maganac Corps) (Stronghold),-,【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand.,GD01,126,1
+Gamow,Red,U,2,1,BASE,-,5,Space,(ZAFT) (Warship),-,"【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. 【Activate･Action】Rest this Base：Choose 1 friendly (ZAFT) Unit with 5 or more AP. It gains <Breach 3> during this battle. (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)",GD01,127,1
+Mining Asteroid Palau,Red,C,2,1,BASE,-,6,Space,(Neo Zeon) (Stronghold),-,【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand.,GD01,128,1
+Kusanagi,White,U,4,2,BASE,-,4,Space,(Triple Ship Alliance) (Warship),-,"【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. Then, choose 1 enemy Unit with 3 or less HP. Return it to its owner's hand.",GD01,129,1
+13th Tactical Testing Sector,White,C,3,1,BASE,-,5,Space,(Academy) (Stronghold),-,"【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. 【Activate･Main】Rest this Base：If a friendly (Academy) Unit is in play, choose 1 enemy Unit. It gets AP-1 during this turn.",GD01,130,1
+White Base,Blue,C,3,2,BASE,-,5,Space Earth,(Earth Federation) (White Base Team) (Warship),-,"【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. 【Activate･Main】【Once per Turn】②：Deploy 1 [Gundam]((White Base Team)･AP3･HP3) Unit token if you have no Units in play, deploy 1 [Guncannon]((White Base Team)･AP2･HP2) Unit token if you have only 1 Unit in play, or deploy 1 [Guntank]((White Base Team)･AP1･HP1) Unit token if you have 2 or more Units in play.",ST01,15,1
+White Base,Blue,C +,3,2,BASE,-,5,Space Earth,(Earth Federation) (White Base Team) (Warship),-,"【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. 【Activate･Main】【Once per Turn】②：Deploy 1 [Gundam]((White Base Team)･AP3･HP3) Unit token if you have 0 Units in play, deploy 1 [Guncannon]((White Base Team)･AP2･HP2) Unit token if you have only 1 Unit in play, or deploy 1 [Guntank]((White Base Team)･AP1･HP1) Unit token if you have 2 or more Units in play.",ST01,15,1
+"Asticassia School of Technology, Earth House",White,C,2,1,BASE,-,5,Space,(Academy) (Stronghold),-,【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. 【Activate･Main】Rest this Base：All friendly Link Units get AP+1 during this turn.,ST01,16,1
+"Asticassia School of Technology, Earth House",White,C +,2,1,BASE,-,5,Space,(Academy) (Stronghold),-,【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. 【Activate･Main】Rest this Base：All friendly Link Units get AP+1 during this turn.,ST01,16,1
+Saint Gabriel Institute,Green,C,2,2,BASE,-,5,Earth,(Academy) (Stronghold),-,"【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. Then, look at the top 2 cards of your deck and return 1 to the top and 1 to the bottom.",ST02,15,1
+Saint Gabriel Institute,Green,C +,2,2,BASE,-,5,Earth,(Academy) (Stronghold),-,"【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. Then, look at the top 2 cards of your deck and return 1 to the top and 1 to the bottom.",ST02,15,1
+Corsica Base,Blue,C,3,3,BASE,-,5,Earth,(OZ) (Stronghold),-,"【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. Then, if it is your turn, deploy 1 [Tallgeese]((OZ)･AP4･HP2) Unit token. If it is your turn and a card with ""Corsica Base"" in its card name is in your trash, deploy 2 [Leo]((OZ)･AP1･HP1) Unit tokens instead.",ST02,16,1
+Corsica Base,Blue,C +,3,3,BASE,-,5,Earth,(OZ) (Stronghold),-,"【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. Then, if it is your turn, deploy 1 [Tallgeese]((OZ)･AP4･HP2) Unit token. If it is your turn and a card with ""Corsica Base"" in its card name is in your trash, deploy 2 [Leo]((OZ)･AP1･HP1) Unit tokens instead.",ST02,16,1
+Rewloola,Red,C,3,2,BASE,-,5,Space,(Neo Zeon) (Warship),-,"【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. Then, choose 1 enemy Unit with 5 or less AP. Deal 1 damage to it.",ST03,15,1
+Rewloola,Red,C +,3,2,BASE,-,5,Space,(Neo Zeon) (Warship),-,"【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. Then, choose 1 enemy Unit with 5 or less AP. Deal 1 damage to it.",ST03,15,1
+Falmel,Green,C,3,2,BASE,-,5,Space,(Zeon) (Warship),-,"【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. Then, if it is your turn, deploy 1 rested [Char's Zaku Ⅱ]((Zeon)･AP3･HP1) Unit token.",ST03,16,1
+Falmel,Green,C +,3,2,BASE,-,5,Space,(Zeon) (Warship),-,"【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. Then, if it is your turn, deploy 1 rested [Char's Zaku Ⅱ]((Zeon)･AP3･HP1) Unit token.",ST03,16,1
+Archangel,White,C,3,1,BASE,-,5,Space Earth,(Earth Alliance) (Warship),-,【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. 【Activate･Main】【Once per Turn】②：Choose 1 friendly Unit with <Blocker>. Set it as active. It can't attack during this turn.,ST04,15,1
+Archangel,White,C +,3,1,BASE,-,5,Space Earth,(Earth Alliance) (Warship),-,【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. 【Activate･Main】【Once per Turn】②：Choose 1 friendly Unit with <Blocker>. Set it as active. It can't attack during this turn.,ST04,15,1
+Vesalius,Red,C,3,1,BASE,-,5,Space,(ZAFT) (Warship),-,【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. 【Activate･Main】Rest this Base：Choose 1 friendly Unit. It gets AP+1 during this turn.,ST04,16,1
+Vesalius,Red,C +,3,1,BASE,-,5,Space,(ZAFT) (Warship),-,【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. 【Activate･Main】Rest this Base：Choose 1 friendly Unit. It gets AP+1 during this turn.,ST04,16,1
+White Base,Blue,C,3,2,BASE,-,5,Space Earth,(Earth Federation) (White Base Team) (Warship),-,"【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. 【Activate･Main】【Once per Turn】②：Deploy 1 [Gundam]((White Base Team)･AP3･HP3) Unit token if you have 0 Units in play, deploy 1 [Guncannon]((White Base Team)･AP2･HP2) Unit token if you have only 1 Unit in play, or deploy 1 [Guntank]((White Base Team)･AP1･HP1) Unit token if you have 2 or more Units in play.",ST01,15,β
+"Asticassia School of Technology, Earth House",White,C,2,1,BASE,-,5,Space,(Academy) (Stronghold),-,【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. 【Activate･Main】Rest this Base：All friendly Link Units get AP+1 during this turn.,ST01,16,β
+Saint Gabriel Institute,Green,C,2,2,BASE,-,5,Earth,(Academy) (Stronghold),-,"【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. Then, look at the top 2 cards of your deck and return 1 to the top and 1 to the bottom.",ST02,15,β
+Falmel,Green,C,3,2,BASE,-,5,Space,(Zeon) (Warship),-,"【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. Then, if it is your turn, deploy 1 rested [Char's Zaku Ⅱ]((Zeon)･AP3･HP1) Unit token.",ST03,16,β
+Archangel,White,C,3,1,BASE,-,5,Space Earth,(Earth Alliance) (Warship),-,【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. 【Activate･Main】【Once per Turn】②：Choose 1 friendly Unit with <Blocker>. Set it as active. It can't attack during this turn.,ST04,15,β
+Side 7,Blue,C,1,1,BASE,-,4,Space,(Earth Federation) (Stronghold),-,【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. 【Activate･Main】Rest this Base：Choose 1 friendly Unit. It recovers 1 HP.,GD01,124,β
+Intercept Orders,Blue,R,4,2,COMMAND,-,-,-,-,-,【Burst】Choose 1 enemy Unit with 5 or less HP. Rest it. 【Main】/【Action】Choose 1 to 2 enemy Units with 3 or less HP. Rest them.,GD01,99,1
+A Show of Resolve,Blue,U,4,3,COMMAND,-,-,-,-,-,【Main】Draw 2.,GD01,100,1
+A Show of Resolve,Blue,U +,4,3,COMMAND,-,-,-,-,-,【Main】Draw 2.,GD01,100,1
+Deep Devotion,Blue,R,2,1,COMMAND,1,0,-,(OZ),-,【Main】/【Action】Choose 1 friendly Link Unit. It recovers 3 HP. 【Pilot】[Lucrezia Noin],GD01,101,1
+Securing the Supply Line,Blue,U,4,2,COMMAND,-,-,-,-,-,【Main】All friendly Units that are Lv.4 or lower recover 2 HP.,GD01,102,1
+The Stubborn Cog,Blue,C,1,1,COMMAND,0,1,-,(Earth Federation),-,【Main】Choose 1 active friendly (Earth Federation) Unit and 1 active enemy Unit. Rest them. 【Pilot】[Daguza Mackle],GD01,103,1
+Signs of a Revolution,Blue,C,3,2,COMMAND,-,-,-,-,-,【Burst】Draw 1. 【Main】Choose 1 rested enemy Unit. Deal 2 damage to it.,GD01,104,1
+"Citizens, Take a Stand!",Green,R,4,1,COMMAND,-,-,-,-,-,【Burst】Add this card to your hand. 【Main】All your Units get AP+2 during this turn.,GD01,105,1
+"Citizens, Take a Stand!",Green,R +,4,1,COMMAND,-,-,-,-,-,【Burst】Add this card to your hand. 【Main】All your Units get AP+2 during this turn.,GD01,105,1
+Fortress Defense,Green,R,5,2,COMMAND,1,0,-,(Zeon),-,【Main】Deploy 2 [Zaku Ⅱ]((Zeon)･AP1･HP1) Unit tokens. 【Pilot】[Dozle Zabi],GD01,106,1
+First Contact,Green,U,3,3,COMMAND,-,-,-,-,-,【Burst】Place 1 EX Resource. 【Main】Place 1 rested Resource.,GD01,107,1
+Strategic Arms,Green,U,6,6,COMMAND,-,-,-,-,-,【Main】Deal 2 damage to all Units with <Blocker>.,GD01,108,1
+The Path to Victory or Defeat,Green,C,5,1,COMMAND,-,-,-,-,-,【Main】Look at the top 5 cards of your deck. You may reveal 1 (Operation Meteor)/(G Team) Unit card/Pilot card among them and add it to your hand. Return the remaining cards randomly to the bottom of your deck.,GD01,109,1
+Rasid's Orders,Green,C,3,1,COMMAND,0,1,-,(Maganac Corps),-,"【Main】/【Action】Choose 1 Unit that is Lv.4 or higher. During this turn, it may choose an active enemy Unit with 6 or less AP as its attack target. 【Pilot】[Rasid Kurama]",GD01,110,1
+Battle of Aces,Red,R,3,2,COMMAND,-,-,-,-,-,【Burst】Choose 1 enemy Unit. Deal 2 damage to it. 【Main】/【Action】Choose 1 damaged enemy Unit. Deal 3 damage to it.,GD01,111,1
+Battle of Aces,Red,R +,3,2,COMMAND,-,-,-,-,-,【Burst】Choose 1 enemy Unit. Deal 2 damage to it. 【Main】/【Action】Choose 1 damaged enemy Unit. Deal 3 damage to it.,GD01,111,1
+Extreme Hatred,Red,R,6,1,COMMAND,1,0,-,(Zeon) (Newtype),-,"【Main】Choose 2 of your active Units. Rest them. If you do, choose 1 enemy Unit. Deal 3 damage to it. 【Pilot】[Loni Garvey]",GD01,112,1
+The Desert Tiger,Red,U,3,1,COMMAND,1,0,-,(ZAFT) (Coordinator),-,【Main】/【Action】Choose 1 friendly (ZAFT) Unit. It gets AP+3 during this turn. 【Pilot】[Andrew Waldfeld],GD01,113,1
+Assault on Torrington Base,Red,C,1,1,COMMAND,1,0,-,(Zeon),-,【Action】Choose 2 friendly Units. They get AP+1 during this turn. 【Pilot】[Yonem Kirks],GD01,114,1
+Zeon Remnant Forces,Red,U,2,1,COMMAND,-,-,-,-,-,【Main】/【Action】Choose 1 enemy Unit. Deal 1 damage to it.,GD01,115,1
+Stealth Stratagem,Red,C,2,1,COMMAND,0,1,-,(ZAFT) (Coordinator),-,【Main】/【Action】Choose 1 enemy Unit with 2 or less AP. Deal 2 damage to it. 【Pilot】[Nicol Amarfi],GD01,116,1
+The Witch and the Bride,White,R,5,2,COMMAND,-,-,-,-,-,【Burst】Activate this card's 【Main】. 【Main】/【Action】Choose 1 enemy Unit with 5 or less HP. Return it to its owner's hand.,GD01,117,1
+The Witch and the Bride,White,R +,5,2,COMMAND,-,-,-,-,-,【Burst】Activate this card's 【Main】. 【Main】/【Action】Choose 1 enemy Unit with 5 or less HP. Return it to its owner's hand.,GD01,117,1
+Overflowing Affection,White,U,2,1,COMMAND,-,-,-,-,-,"【Main】Draw 2. Then, discard 1.",GD01,118,1
+Overflowing Affection,White,U +,2,1,COMMAND,-,-,-,-,-,"【Main】Draw 2. Then, discard 1.",GD01,118,1
+Iron-Fisted Discipline,White,R,2,1,COMMAND,1,0,-,(Academy),-,【Main】/【Action】Choose 1 enemy Unit that is Lv.4 or lower. It gets AP-2 during this turn. 【Pilot】[Chuatury Panlunch],GD01,119,1
+Naval Bombardment,White,C,2,1,COMMAND,-,-,-,-,-,【Burst】Choose 1 enemy Unit. It gets AP-3 during this turn. 【Action】Choose 1 friendly Unit with <Blocker>. It gets AP+3 during this turn.,GD01,120,1
+Midair Modifications,White,U,3,2,COMMAND,-,-,-,-,-,【Burst】Activate this card's 【Main】. 【Main】Choose 1 rested Unit with <Blocker>. Set it as active. It can't attack during this turn.,GD01,121,1
+Covert Operative,White,C,3,1,COMMAND,1,0,-,(Academy),-,"【Main】Choose 1 enemy Unit with 2 or less HP. Return it to its owner's hand. If you have a Link Unit in play, choose 1 enemy Unit with 4 or less HP instead. 【Pilot】[Shaddiq Zenelli]",GD01,122,1
+Thoroughly Damaged,Blue,C +,2,1,COMMAND,0,1,-,(Earth Federation) (White Base Team),-,【Main】Choose 1 rested enemy Unit. Deal 1 damage to it. 【Pilot】[Hayato Kobayashi],ST01,12,1
+Kai's Resolve,Blue,C,3,1,COMMAND,1,0,-,(Earth Federation) (White Base Team),-,【Main】Choose 1 friendly Unit. It recovers 3 HP. 【Pilot】[Kai Shiden],ST01,13,1
+Kai's Resolve,Blue,C +,3,1,COMMAND,1,0,-,(Earth Federation) (White Base Team),-,【Main】Choose 1 friendly Unit. It recovers 3 HP. 【Pilot】[Kai Shiden],ST01,13,1
+Unforeseen Incident,White,C,3,1,COMMAND,-,-,-,-,-,【Burst】Activate this card's 【Main】. 【Main】/【Action】Choose 1 enemy Unit. It gets AP-3 during this turn.,ST01,14,1
+Unforeseen Incident,White,C +,3,1,COMMAND,-,-,-,-,-,【Burst】Activate this card's 【Main】. 【Main】/【Action】Choose 1 enemy Unit. It gets AP-3 during this turn.,ST01,14,1
+Simultaneous Fire,Green,C,4,1,COMMAND,1,1,-,(Operation Meteor),-,"【Main】Choose 1 of your Units. It gains <Breach 3> during this turn. (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.) 【Pilot】[Trowa Barton]",ST02,12,1
+Simultaneous Fire,Green,C +,4,1,COMMAND,1,1,-,(Operation Meteor),-,"【Main】Choose 1 of your Units. It gains <Breach 3> during this turn. (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to a card in that opponent's shield area.) 【Pilot】[Trowa Barton]",ST02,12,1
+Peaceful Timbre,Green,C,4,1,COMMAND,1,1,-,(Operation Meteor),-,"【Action】During this battle, your shield area cards can't receive damage from enemy Units that are Lv.4 or lower. 【Pilot】[Quatre Raberba Winner]",ST02,13,1
+Peaceful Timbre,Green,C +,4,1,COMMAND,1,1,-,(Operation Meteor),-,"【Action】During this battle, your shield area cards can't receive damage from enemy Units that are Lv.4 or lower. 【Pilot】[Quatre Raberba Winner]",ST02,13,1
+Siege Ploy,Blue,C,3,1,COMMAND,-,-,-,-,-,【Burst】Activate this card's 【Main】. 【Main】/【Action】Choose 1 enemy Unit with 5 or less HP. Rest it.,ST02,14,1
+Siege Ploy,Blue,C +,3,1,COMMAND,-,-,-,-,-,【Burst】Activate this card's 【Main】. 【Main】/【Action】Choose 1 enemy Unit with 5 or less HP. Rest it.,ST02,14,1
+Indignation,Red,C,2,1,COMMAND,1,-,-,(Neo Zeon),-,【Main】/【Action】Choose 1 friendly Unit. It gets AP+2 during this turn. 【Pilot】[Angelo Sauper],ST03,12,1
+Indignation,Red,C +,2,1,COMMAND,1,-,-,(Neo Zeon),-,【Main】/【Action】Choose 1 friendly Unit. It gets AP+2 during this turn. 【Pilot】[Angelo Sauper],ST03,12,1
+Close Combat,Red,C,2,2,COMMAND,-,-,-,-,-,【Burst】Activate this card's 【Main】. 【Main】/【Action】Choose 1 enemy Unit. Deal 2 damage to it.,ST03,13,1
+Close Combat,Red,C +,2,2,COMMAND,-,-,-,-,-,【Burst】Activate this card's 【Main】. 【Main】/【Action】Choose 1 enemy Unit. Deal 2 damage to it.,ST03,13,1
+The Blue Giant,Green,C,4,1,COMMAND,1,1,-,(Zeon),-,【Action】Choose 1 friendly Unit. It can't receive battle damage from enemy Units with 2 or less AP during this battle. 【Pilot】[Ramba Ral],ST03,14,1
+The Blue Giant,Green,C +,4,1,COMMAND,1,1,-,(Zeon),-,【Action】Choose 1 friendly Unit. It can't receive battle damage from enemy Units with 2 or less AP during this battle. 【Pilot】[Ramba Ral],ST03,14,1
+Striker Pack,White,C,4,2,COMMAND,-,-,-,-,-,"【Burst】If you have no (Earth Alliance) Unit tokens in play, deploy 1 [Aile Strike Gundam]((Earth Alliance)･AP3･HP3･<Blocker>) Unit token. 【Main】If you have no (Earth Alliance) Unit tokens in play, deploy 1 [Sword Strike Gundam]((Earth Alliance)･AP4･HP2･<Blocker>) or 1 [Launcher Strike Gundam]((Earth Alliance)･AP2･HP4･<Blocker>) Unit token.",ST04,12,1
+Striker Pack,White,C +,4,2,COMMAND,-,-,-,-,-,"【Burst】If you have no (Earth Alliance) Unit tokens in play, deploy 1 [Aile Strike Gundam]((Earth Alliance)･AP3･HP3･<Blocker>) Unit token. 【Main】If you have no (Earth Alliance) Unit tokens in play, deploy 1 [Sword Strike Gundam]((Earth Alliance)･AP4･HP2･<Blocker>) or 1 [Launcher Strike Gundam]((Earth Alliance)･AP2･HP4･<Blocker>) Unit token.",ST04,12,1
+Hawk of Endymion,White,C,2,1,COMMAND,1,0,-,(Earth Alliance),-,【Main】/【Action】Choose 1 enemy Unit with 3 or less HP. Return it to its owner's hand. 【Pilot】[Mu La Flaga],ST04,13,1
+Hawk of Endymion,White,C +,2,1,COMMAND,1,0,-,(Earth Alliance),-,【Main】/【Action】Choose 1 enemy Unit with 3 or less HP. Return it to its owner's hand. 【Pilot】[Mu La Flaga],ST04,13,1
+The Magic Bullet of Dusk,Red,C,3,1,COMMAND,0,1,-,(ZAFT) (Coordinator),-,"【Main】/【Action】Choose 1 friendly Unit that is Lv.2 or lower. It gains <First Strike> during this turn. (While this Unit is attacking, it deals damage before the enemy Unit.) 【Pilot】[Miguel Ayman]",ST04,14,1
+The Magic Bullet of Dusk,Red,C +,3,1,COMMAND,0,1,-,(ZAFT) (Coordinator),-,"【Main】/【Action】Choose 1 friendly Unit that is Lv.2 or lower. It gains <First Strike> during this turn. (While this Unit is attacking, it deals damage before the enemy Unit.) 【Pilot】[Miguel Ayman]",ST04,14,1
+Thoroughly Damaged,Blue,C,2,1,COMMAND,0,1,-,(Earth Federation) (White Base Team),-,【Main】Choose 1 rested enemy Unit. Deal 1 damage to it. 【Pilot】[Hayato Kobayashi],ST01,12,β
+Kai's Resolve,Blue,C,3,1,COMMAND,1,0,-,(Earth Federation) (White Base Team),-,【Main】Choose 1 friendly Unit. It recovers 3 HP. 【Pilot】[Kai Shiden],ST01,13,β
+Simultaneous Fire,Green,C,4,1,COMMAND,1,1,-,(Operation Meteor),-,"【Main】Choose 1 of your Units. It gains <Breach 3> during this turn. (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to a card in that opponent's shield area.) 【Pilot】[Trowa Barton]",ST02,12,β
+Peaceful Timbre,Green,C,4,1,COMMAND,1,1,-,(Operation Meteor),-,"【Action】During this battle, your shield area cards can't receive damage from enemy Units that are Lv.4 or lower. 【Pilot】[Quatre Raberba Winner]",ST02,13,β
+Hawk of Endymion,White,C,2,1,COMMAND,1,0,-,(Earth Alliance),-,【Main】/【Action】Choose 1 enemy Unit with 3 or less HP. Return it to its owner's hand. 【Pilot】[Mu La Flaga],ST04,13,β
+Intercept Orders,Blue,R,4,2,COMMAND,-,-,-,-,-,【Burst】Choose 1 enemy Unit with 5 or less HP. Rest it. 【Main】/【Action】Choose 1 to 2 enemy Units with 3 or less HP. Rest them.,GD01,99,β
+A Show of Resolve,Blue,U,4,3,COMMAND,-,-,-,-,-,【Main】Draw 2.,GD01,100,β
+A Show of Resolve,Blue,U +,4,3,COMMAND,-,-,-,-,-,【Main】Draw 2.,GD01,100,β
+"Citizens, Take a Stand!",Green,R,4,1,COMMAND,-,-,-,-,-,【Burst】Add this card to your hand. 【Main】All your Units get AP+2 during this turn.,GD01,105,β
+First Contact,Green,U,3,3,COMMAND,-,-,-,-,-,【Burst】Place 1 EX Resource. 【Main】Place 1 rested Resource.,GD01,107,β
+First Contact,Green,U +,3,3,COMMAND,-,-,-,-,-,【Burst】Place 1 EX Resource. 【Main】Place 1 rested Resource.,GD01,107,β
+The Witch and the Bride,White,R,5,2,COMMAND,-,-,-,-,-,【Burst】Activate this card's 【Main】. 【Main】/【Action】Choose 1 enemy Unit with 5 or less HP. Return it to its owner's hand.,GD01,117,β
+Overflowing Affection,White,U,2,1,COMMAND,-,-,-,-,-,"【Main】Draw 2. Then, discard 1.",GD01,118,β
+Overflowing Affection,White,U +,2,1,COMMAND,-,-,-,-,-,"【Main】Draw 2. Then, discard 1.",GD01,118,β
+Naval Bombardment,White,C,2,1,COMMAND,-,-,-,-,-,【Burst】Choose 1 enemy Unit. It gets AP-3 during this turn. 【Action】Choose 1 friendly Unit with <Blocker>. It gets AP+3 during this turn.,GD01,120,β
+Unforeseen Incident,White,C,3,1,COMMAND,-,-,-,-,-,【Burst】Activate this card's 【Main】. 【Main】/【Action】Choose 1 enemy Unit. It gets AP-3 during this turn.,ST01,14,P
+Unforeseen Incident,White,C +,3,1,COMMAND,-,-,-,-,-,【Burst】Activate this card's 【Main】. 【Main】/【Action】Choose 1 enemy Unit. It gets AP-3 during this turn.,ST01,14,P
+Overflowing Affection,White,U,2,1,COMMAND,-,-,-,-,-,"【Main】Draw 2. Then, discard 1.",GD01,118,P
+EX Base,-,C,-,-,EX BASE,-,3,-,-,-,-,EXB,1,1
+EX Base,-,C,-,-,EX BASE,-,3,-,-,-,"(At the start of the game, place 1 active EX Base as your shield area's base.)",EXB,1,β
+EX Base,-,P,-,-,EX BASE,-,3,-,-,-,"(At the start of the game, place 1 active EX Base as your shield area's base.)",EXBP,1,P
+EX Base,-,P,-,-,EX BASE,-,3,-,-,-,"(At the start of the game, place 1 active EX Base as your shield area's base.)",EXBP,2,P
+EX Base,-,P,-,-,EX BASE,-,3,-,-,-,"(At the start of the game, place 1 active EX Base as your shield area's base.)",EXBP,3,P
+EX Base,-,P,-,-,EX BASE,-,3,-,-,-,"(At the start of the game, place 1 active EX Base as your shield area's base.)",EXBP,4,P
+EX Base,-,P,-,-,EX BASE,-,3,-,-,-,"(At the start of the game, place 1 active EX Base as your shield area's base.)",EXBP,5,P
+EX Resource,-,C,-,-,EX RESOURCE,-,-,-,-,-,-,EXR,1,1
+EX Resource,-,C,-,-,EX RESOURCE,-,-,-,-,-,"(At the start of the game, the second-turn player places 1 EX Resource into their resource area.) (Rest an EX Resource then exile it from the game when paying a cost.)",EXR,1,β
+EX Resource,-,P,-,-,EX RESOURCE,-,-,-,-,-,"(At the start of the game, the second-turn player places 1 EX Resource into their resource area.) (Rest an EX Resource then exile it from the game when paying a cost.)",EXRP,1,P
+EX Resource,-,P,-,-,EX RESOURCE,-,-,-,-,-,"(At the start of the game, the second-turn player places 1 active EX Resource into their resource area.) (Rest an EX Resource then exile it from the game when paying a cost.)",EXRP,2,P
+Sayla Mass,Blue,R,3,1,PILOT,1,1,-,(Earth Federation) (white Base Team) (Newtype),-,"【Burst】Add this card to your hand. While this Unit is blue, it gains <Repair 1>. (At the end of your turn, this Unit recovers the specified number of HP.)",GD01,87,1
+Sayla Mass,Blue,R +,3,1,PILOT,1,1,-,(Earth Federation) (white Base Team) (Newtype),-,"【Burst】Add this card to your hand. While this Unit is blue, it gains <Repair 1>. (At the end of your turn, this Unit recovers the specified number of HP.)",GD01,87,1
+Banagher Links,Blue,U,5,1,PILOT,2,2,-,(Civilian) (Newtype),-,【Burst】Add this card to your hand. 【When Linked】Draw 1.,GD01,88,1
+Riddhe Marcenas,Blue,C,3,1,PILOT,1,1,-,(Earth Federation),-,"【Burst】Add this card to your hand. While this Unit has <Repair>, it gets AP+1.",GD01,89,1
+Duo Maxwell,Green,R,4,1,PILOT,1,2,-,(Operation Meteor),-,【Burst】Add this card to your hand. 【During Link】This Unit's AP can't be reduced by enemy effects.,GD01,90,1
+Duo Maxwell,Green,R +,4,1,PILOT,1,2,-,(Operation Meteor),-,【Burst】Add this card to your hand. 【During Link】This Unit's AP can't be reduced by enemy effects.,GD01,90,1
+Chang Wufei,Green,U,4,1,PILOT,2,1,-,(Operation Meteor),-,"【Burst】Add this card to your hand. During your turn, while this Unit has <Breach>, it can't receive battle damage from enemy Units with 3 or less AP.",GD01,91,1
+M'Quve,Green,C,3,1,PILOT,1,1,-,(Zeon),-,"【Burst】Add this card to your hand. While this Unit is (Zeon), it gains <Breach 1>. (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)",GD01,92,1
+Marida Cruz,Red,R,4,1,PILOT,2,1,-,(Neo Zeon) (Cyber-Newtype),-,【Burst】Add this card to your hand. 【During Link】【Attack】Choose 1 enemy Unit whose Lv. is equal to or lower than this Unit. Deal 1 damage to it.,GD01,93,1
+Marida Cruz,Red,R +,4,1,PILOT,2,1,-,(Neo Zeon) (Cyber-Newtype),-,【Burst】Add this card to your hand. 【During Link】【Attack】Choose 1 enemy Unit whose Lv. is equal to or lower than this Unit. Deal 1 damage to it.,GD01,93,1
+Yzak Jule,Red,U,3,1,PILOT,1,1,-,(ZAFT) (Coordinator),-,"【Burst】Add this card to your hand. 【Once per Turn】 When an enemy Link Unit is destroyed with damage while this Unit is attacking, draw 1.",GD01,94,1
+Dearka Elthman,Red,C,3,1,PILOT,1,1,-,(ZAFT) (Coordinator),-,"【Burst】Add this card to your hand. 【When Linked】Discard 1. If you do, draw 1.",GD01,95,1
+Cagalli Yula Athha,White,R,4,1,PILOT,1,1,-,(Orb),-,"【Burst】Add this card to your hand. While this Unit is white, it gains <Blocker>. (Rest this Unit to change the attack target to it.)",GD01,96,1
+Cagalli Yula Athha,White,R +,4,1,PILOT,1,1,-,(Orb),-,"【Burst】Add this card to your hand. While this Unit is white, it gains <Blocker>. (Rest this Unit to change the attack target to it.)",GD01,96,1
+Guel Jeturk,White,U,3,1,PILOT,1,1,-,(Academy),-,"【Burst】Add this card to your hand. 【Activate･Main】【Once per Turn】If your opponent has 8 or more cards in their hand, set this Unit as active. It can't attack during this turn.",GD01,97,1
+Elan Ceres (Enhanced Person Number 4),White,C,4,1,PILOT,2,1,-,(Academy),-,"【Burst】Add this card to your hand. 【Activate･Action】【Once per Turn】If an enemy Unit with 1 or less AP is in play, this Unit recovers 1 HP.",GD01,98,1
+Amuro Ray,Blue,C,4,1,PILOT,2,1,-,(Earth Federation) (White Base Team) (Newtype),-,【Burst】Add this card to your hand. 【When Paired】Choose 1 enemy Unit with 5 or less HP. Rest it.,ST01,10,1
+Heero Yuy,Green,C,4,1,PILOT,2,1,-,(Operation Meteor),-,【Burst】Add this card to your hand. 【During Link】This Unit gets AP+1 and HP+1.,ST02,10,1
+Heero Yuy,Green,C +,4,1,PILOT,2,1,-,(Operation Meteor),-,【Burst】Add this card to your hand. This Unit gets AP+1 and HP+1 while linked.,ST02,10,1
+Zechs Merquise,Blue,C,5,1,PILOT,2,1,-,(OZ),-,"【Burst】Add this card to your hand. 【During Link】During your turn, when this Unit destroys an enemy Unit with battle damage, draw 1.",ST02,11,1
+Zechs Merquise,Blue,C +,5,1,PILOT,2,1,-,(OZ),-,"【Burst】Add this card to your hand. 【During Link】During your turn, when this Unit destroys an enemy Unit with battle damage, draw 1.",ST02,11,1
+Full Frontal,Red,C,6,1,PILOT,2,2,-,(Neo Zeon) (Cyber-Newtype),-,【Burst】Add this card to your hand. 【When Paired】You may deploy 1 (Neo Zeon)/(Zeon) Unit card that is Lv.4 or lower from your hand.,ST03,10,1
+Full Frontal,Red,C +,6,1,PILOT,2,2,-,(Neo Zeon) (Cyber-Newtype),-,【Burst】Add this card to your hand. 【When Paired】You may deploy 1 (Neo Zeon)/(Zeon) Unit card that is Lv.4 or lower from your hand.,ST03,10,1
+Char Aznable,Green,C,3,1,PILOT,1,1,-,(Zeon) (Newtype),-,"【Burst】Add this card to your hand. 【Attack】During this turn, this Unit gets AP+1 and, if it is a Link Unit, it gains <High-Maneuver>. (This Unit can't be blocked.)",ST03,11,1
+Char Aznable,Green,C +,3,1,PILOT,1,1,-,(Zeon) (Newtype),-,"【Burst】Add this card to your hand. 【Attack】This Unit gets AP+1 during this turn. If it is a Link Unit, it also gains <High-Maneuver>. (This Unit can't be blocked.)",ST03,11,1
+Kira Yamato,White,C,4,1,PILOT,2,1,-,(Earth Alliance) (Coordinator),-,【Burst】Add this card to your hand. 【Attack】Choose 1 enemy Unit. It gets AP-2 during this battle.,ST04,10,1
+Kira Yamato,White,C +,4,1,PILOT,2,1,-,(Earth Alliance) (Coordinator),-,【Burst】Add this card to your hand. 【Attack】Choose 1 enemy Unit. It gets AP-2 during this battle.,ST04,10,1
+Athrun Zala,Red,C,4,1,PILOT,1,2,-,(ZAFT) (Coordinator),-,"【Burst】Add this card to your hand. 【When Linked】During this turn, this Unit may choose an active enemy Unit that is Lv.5 or lower as its attack target.",ST04,11,1
+Athrun Zala,Red,C +,4,1,PILOT,1,2,-,(ZAFT) (Coordinator),-,"【Burst】Add this card to your hand. 【When Linked】During this turn, this Unit may choose an active enemy Unit that is Lv.5 or lower as its attack target.",ST04,11,1
+Amuro Ray,Blue,C,4,1,PILOT,2,1,-,(Earth Federation) (White Base Team) (Newtype),-,【Burst】Add this card to your hand. 【When Paired】Choose 1 enemy Unit with 5 or less HP. Rest it.,ST01,10,β
+Suletta Mercury,White,C,4,1,PILOT,1,2,-,(Academy),-,【Burst】Add this card to your hand. 【Attack】【Once per Turn】Choose 1 of your Resources. Set it as active.,ST01,11,β
+Suletta Mercury,White,C +,4,1,PILOT,1,2,-,(Academy),-,【Burst】Add this card to your hand. 【Attack】【Once per Turn】Choose 1 of your Resources. Set it as active.,ST01,11,β
+Heero Yuy,Green,C,4,1,PILOT,2,1,-,(Operation Meteor),-,【Burst】Add this card to your hand. This Unit gets AP+1 and HP+1 while linked.,ST02,10,β
+Char Aznable,Green,C,3,1,PILOT,1,1,-,(Zeon) (Newtype),-,"【Burst】Add this card to your hand. 【Attack】During this turn, this Unit gets AP+1 and, if it is a Link Unit, it gains <High-Maneuver>. (This Unit can't be blocked.)",ST03,11,β
+Char Aznable,Green,C +,3,1,PILOT,1,1,-,(Zeon) (Newtype),-,"【Burst】Add this card to your hand. 【Attack】During this turn, this Unit gets AP+1 and, if it is a Link Unit, it gains <High-Maneuver>. (This Unit can't be blocked.)",ST03,11,β
+Kira Yamato,White,C,4,1,PILOT,2,1,-,(Earth Alliance) (Coordinator),-,【Burst】Add this card to your hand. 【Attack】Choose 1 enemy Unit. It gets AP-2 during this battle.,ST04,10,β
+Banagher Links,Blue,U,5,1,PILOT,2,2,-,(Civilian) (Newtype),-,"【Burst】Add this card to your hand. 【When Paired】If this is a Link Unit, draw 1.",GD01,88,β
+Banagher Links,Blue,U +,5,1,PILOT,2,2,-,(Civilian) (Newtype),-,"【Burst】Add this card to your hand. 【When Paired】If this is a Link Unit, draw 1.",GD01,88,β
+Riddhe Marcenas,Blue,C,3,1,PILOT,1,1,-,(Earth Federation),-,"【Burst】Add this card to your hand. If this Unit has <Repair>, it gets AP+1.",GD01,89,β
+Chang Wufei,Green,U,4,1,PILOT,2,1,-,(Operation Meteor),-,"【Burst】Add this card to your hand. During your turn, if this Unit has <Breach>, it can't receive battle damage from enemy Units with 3 or less AP.",GD01,91,β
+Guel Jeturk,White,U,3,1,PILOT,1,1,-,(Academy),-,"【Burst】Add this card to your hand. 【Activate･Main】【Once per Turn】If your opponent has 8 or more cards in their hand, set this Unit as active. It can't attack during this turn.",GD01,97,β
+Suletta Mercury,White,C,4,1,PILOT,1,2,-,(Academy),-,【Burst】Add this card to your hand. 【Attack】【Once per Turn】Choose 1 of your Resources. Set it as active.,ST01,11,P
+Kira Yamato,White,C,4,1,PILOT,2,1,-,(Earth Alliance) (Coordinator),-,【Burst】Add this card to your hand. 【Attack】Choose 1 enemy Unit. It gets AP-2 during this battle.,ST04,10,P
+Athrun Zala,Red,C,4,1,PILOT,1,2,-,(ZAFT) (Coordinator),-,"【Burst】Add this card to your hand. 【When Linked】During this turn, this Unit may choose an active enemy Unit that is Lv.5 or lower as its attack target.",ST04,11,P
+Athrun Zala,Red,C +,4,1,PILOT,1,2,-,(ZAFT) (Coordinator),-,"【Burst】Add this card to your hand. 【When Linked】During this turn, this Unit may choose an active enemy Unit that is Lv.5 or lower as its attack target.",ST04,11,P
+Sayla Mass,Blue,R,3,1,PILOT,1,1,-,(Earth Federation) (White Base Team) (Newtype),-,"【Burst】Add this card to your hand. While this unit is blue, it gains <Repair 1>. (At the end of your turn, heal this unit by the specified amount)",GD01,87,P
+Sayla Mass,Blue,R +,3,1,PILOT,1,1,-,(Earth Federation) (White Base Team) (Newtype),-,"【Burst】Add this card to your hand. While this Unit is blue, it gains <Repair 1>. (At the end of your turn, this Unit recovers the specified number of HP.)",GD01,87,P
+Banagher Links,Blue,U,5,1,PILOT,2,2,-,(Civilian) (Newtype),-,【Burst】Add this card to your hand. 【When Linked】Draw 1.,GD01,88,P
+Duo Maxwell,Green,R,4,1,PILOT,1,2,-,(Operation Meteor),-,【Burst】Add this card to your hand. 【During Link】This unit's AP does not decrease due to the opponent's effects.,GD01,90,P
+Duo Maxwell,Green,R +,4,1,PILOT,1,2,-,(Operation Meteor),-,【Burst】Add this card to your hand. 【During Link】This Unit's AP can't be reduced by enemy effects.,GD01,90,P
+Resource,-,C,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),R,2,1
+Resource,-,C +,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),R,2,1
+Resource,-,C ++,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),R,2,1
+Resource,-,C,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),R,3,1
+Resource,-,C +,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),R,3,1
+Resource,-,C,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),R,4,1
+Resource,-,C +,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),R,4,1
+Resource,-,C,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),R,5,1
+Resource,-,C +,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),R,5,1
+Resource,-,C,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),R,6,1
+Resource,-,C +,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),R,6,1
+Resource,-,C,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),R,7,1
+Resource,-,C +,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),R,7,1
+Resource,-,C,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),R,8,1
+Resource,-,C +,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),R,8,1
+Resource,-,C,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),R,9,1
+Resource,-,C +,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),R,9,1
+Resource,-,C,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),R,1,1
+Resource,-,C,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),R,1,β
+Resource,-,C +,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),R,1,β
+Resource,-,P,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),RP,1,P
+Resource,-,P,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),RP,2,P
+Resource,-,P,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),RP,3,P
+Resource,-,P,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),RP,4,P
+Resource,-,P,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),RP,5,P
+Resource,-,P,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),RP,6,P
+Resource,-,P,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),RP,7,P
+Resource,-,P,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),RP,8,P
+Resource,-,P,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),RP,9,P
+Resource,-,P,-,-,RESOURCE,-,-,-,-,-,(Rest a Resource when paying a cost.),RP,10,P
+Gundam,Blue,LR,4,3,UNIT,3,3,Space Earth,(Earth Federation) (white Base Team),[Amuro Ray],"All your (white Base Team) Units gain <Repair 1>. (At the end of your turn, this Unit recovers the specified number of HP.)【When Paired】If you have 2 or more other Units in play, draw 1.",GD01,1,1
+Gundam,Blue,LR +,4,3,UNIT,3,3,Space Earth,(Earth Federation) (white Base Team),[Amuro Ray],"All your (white Base Team) Units gain <Repair 1>. (At the end of your turn, this Unit recovers the specified number of HP.)【When Paired】If you have 2 or more other Units in play, draw 1.",GD01,1,1
+Gundam,Blue,LR ++,4,3,UNIT,3,3,Space Earth,(Earth Federation) (white Base Team),[Amuro Ray],"All your (white Base Team) Units gain <Repair 1>. (At the end of your turn, this Unit recovers the specified number of HP.)【When Paired】If you have 2 or more other Units in play, draw 1.",GD01,1,1
+Unicorn Gundam (Destroy Mode),Blue,LR,7,6,UNIT,5,4,Space Earth,(Civilian),[Banagher Links],"When playing this card from your hand, you may destroy 1 of your Link Units with ""Unicorn Mode"" in its card name that is Lv.5. If you do, play this card as if it has 0 Lv. and cost.【Attack】Choose 1 enemy Unit. Rest it.",GD01,2,1
+Unicorn Gundam (Destroy Mode),Blue,LR +,7,6,UNIT,5,4,Space Earth,(Civilian),[Banagher Links],"When playing this card from your hand, you may destroy 1 of your Link Units with ""Unicorn Mode"" in its card name that is Lv.5. If you do, play this card as if it has 0 Lv. and cost.【Attack】Choose 1 enemy Unit. Rest it.",GD01,2,1
+Unicorn Gundam 02 Banshee (Destroy Mode),Blue,LR,6,4,UNIT,5,4,Space Earth,(Earth Federation),[Marida Cruz],"【During Link】【Attack】Choose 12 cards from your trash. Return them to their owner's deck and shuffle it. If you do, set this Unit as active. It gains <First Strike> during this turn. (While this Unit is attacking, it deals damage before the enemy Unit.)",GD01,3,1
+Unicorn Gundam 02 Banshee (Destroy Mode),Blue,LR +,6,4,UNIT,5,4,Space Earth,(Earth Federation),[Marida Cruz],"【During Link】【Attack】Choose 12 cards from your trash. Return them to their owner's deck and shuffle it. If you do, set this Unit as active. It gains <First Strike> during this turn. (While this Unit is attacking, it deals damage before the enemy Unit.)",GD01,3,1
+Guncannon,Blue,R,3,2,UNIT,2,3,Space Earth,(Earth Federation) (white Base Team),(white Base Team) Trait,"<Repair 1> (At the end of your turn, this Unit recovers the specified number of HP.) 【When Paired】Choose 1 enemy Unit with 2 or less HP. Rest it.",GD01,4,1
+Unicorn Gundam (Unicorn Mode),Blue,R,4,3,UNIT,4,3,Space Earth,(Civilian),[Banagher Links],"【During Link】【Destroyed】Return this Unit's paired Pilot to its owner's hand. Then, discard 1.",GD01,5,1
+Unicorn Gundam (Unicorn Mode),Blue,R +,4,3,UNIT,4,3,Space Earth,(Civilian),[Banagher Links],"【During Link】【Destroyed】Return this Unit's paired Pilot to its owner's hand. Then, discard 1.",GD01,5,1
+Delta Plus,Blue,R,4,3,UNIT,4,3,Space Earth,(Earth Federation),(Earth Federation) Trait,"<Repair 1> (At the end of your turn, this Unit recovers the specified number of HP.)【During Link】This Unit gets HP+1.",GD01,6,1
+Delta Plus,Blue,R +,4,3,UNIT,4,3,Space Earth,(Earth Federation),(Earth Federation) Trait,"<Repair 1> (At the end of your turn, this Unit recovers the specified number of HP.)【During Link】This Unit gets HP+1.",GD01,6,1
+Noin's Aries,Blue,R,3,3,UNIT,2,3,Earth,(OZ),[Lucrezia Noin],"【Destroyed】If you have another (OZ) Unit in play, draw 1.",GD01,7,1
+Guntank,Blue,U,2,1,UNIT,1,2,Space Earth,(Earth Federation) (white Base Team),-,【Deploy】Choose 1 rested enemy Unit. Deal 1 damage to it.,GD01,8,1
+G-Fighter,Blue,U,3,2,UNIT,3,2,Space Earth,(Earth Federation) (white Base Team),(white Base Team) Trait,【Deploy】Choose 1 of your (white Base Team) Units. It gains <High-Maneuver> during this turn. (This Unit can't be blocked.),GD01,9,1
+Unicorn Gundam 02 Banshee (Unicorn Mode),Blue,R,4,3,UNIT,4,3,Space Earth,(Earth Federation),(Cyber-Newtype) Trait,【When Paired】Choose 1 enemy Unit with 3 or less HP. Rest it.,GD01,10,1
+Loto,Blue,U,2,2,UNIT,2,2,Space Earth,(Earth Federation),(Earth Federation) Trait,-,GD01,11,1
+Zechs' Leo,Blue,U,3,2,UNIT,3,2,Space Earth,(OZ),(OZ) Trait,【When Paired】Choose 1 enemy Unit with 3 or less HP. Rest it.,GD01,12,1
+Gundam,Blue,C,4,2,UNIT,3,4,Space Earth,(Earth Federation) (white Base Team),[Amuro Ray],-,GD01,13,1
+G-Sky Easy,Blue,C,3,2,UNIT,1,3,Space Earth,(Earth Federation) (white Base Team),(white Base Team) Trait,【During Link】【Activate･Action】【Once per Turn】Choose 1 Unit. It recovers 1 HP.,GD01,14,1
+Ball,Blue,C,1,1,UNIT,1,1,Space Earth,(Earth Federation),-,【Attack】Choose 1 of your Units. It recovers 1 HP.,GD01,15,1
+Jegan,Blue,C,3,2,UNIT,2,3,Space Earth,(Earth Federation),-,"While you have 2 or more (Earth Federation) Units in play, this card in your hand gets cost -1.",GD01,16,1
+Stark Jegan,Blue,C,3,3,UNIT,3,3,Space Earth,(Earth Federation),(Earth Federation) Trait,"<Repair 1> (At the end of your turn, this Unit recovers the specified number of HP.)",GD01,17,1
+ReZEL,Blue,C,3,3,UNIT,4,3,Space Earth,(Earth Federation),-,-,GD01,18,1
+Byarlant Custom,Blue,U,4,2,UNIT,3,4,Space Earth,(Earth Federation),-,"While 4 or more enemy Units are in play, this Unit gains <Blocker>. (Rest this Unit to change the attack target to it.)",GD01,19,1
+Anksha,Blue,C,4,2,UNIT,3,3,Earth,(Earth Federation),-,【Deploy】Choose 1 rested enemy Unit. Deal 1 damage to it.,GD01,20,1
+Pisces,Blue,C,1,1,UNIT,1,2,Earth,(OZ),-,-,GD01,21,1
+Cancer,Blue,C,2,2,UNIT,2,3,Earth,(OZ),-,-,GD01,22,1
+Char's Gelgoog,Green,LR,4,4,UNIT,4,3,Space Earth,(Zeon),[Char Aznable],"【Activate･Main】Discard 1 (Zeon)/(Neo Zeon) Unit card：If a Pilot is not paired with this Unit, choose 1 (Newtype) Pilot card that is Lv.3 or lower from your trash. Pair it with this Unit.",GD01,23,1
+Char's Gelgoog,Green,LR +,4,4,UNIT,4,3,Space Earth,(Zeon),[Char Aznable],"【Activate･Main】Discard 1 (Zeon)/(Neo Zeon) Unit card：If a Pilot is not paired with this Unit, choose 1 (Newtype) Pilot card that is Lv.3 or lower from your trash. Pair it with this Unit.",GD01,23,1
+Wing Gundam Zero,Green,LR,8,8,UNIT,5,7,Space Earth,(G Team),[Heero Yuy],<High-Maneuver> (This Unit can't be blocked.)【Deploy】Deal 3 damage to all Units that are Lv.5 or lower.,GD01,24,1
+Wing Gundam Zero,Green,LR +,8,8,UNIT,5,7,Space Earth,(G Team),[Heero Yuy],<High-Maneuver> (This Unit can't be blocked.)【Deploy】Deal 3 damage to all Units that are Lv.5 or lower.,GD01,24,1
+Gundam Deathscythe,Green,LR,6,4,UNIT,5,4,Earth,(Operation Meteor),[Duo Maxwell],"【When Paired･(Operation Meteor) Pilot】Place 1 rested Resource. Then, this Unit gains <First Strike> during this turn. (While this Unit is attacking, it deals damage before the enemy Unit.)",GD01,25,1
+Gundam Deathscythe,Green,LR +,6,4,UNIT,5,4,Earth,(Operation Meteor),[Duo Maxwell],"【When Paired･(Operation Meteor) Pilot】Place 1 rested Resource. Then, this Unit gains <First Strike> during this turn. (While this Unit is attacking, it deals damage before the enemy Unit.)",GD01,25,1
+Char's Zaku Ⅱ,Green,R,3,2,UNIT,3,2,Space Earth,(Zeon),[Char Aznable],【During Pair】【Destroyed】Deploy 1 rested [Char's Zaku Ⅱ]((Zeon)･AP3･HP1) Unit token.,GD01,26,1
+Big Zam,Green,R,7,5,UNIT,5,6,Space Earth,(Zeon),[Dozle Zabi],"<Breach 4> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)【Deploy】If there are 10 or more (Zeon)/(Neo Zeon) Unit cards in your trash, deal 4 damage to all Units with <Blocker>.",GD01,27,1
+Big Zam,Green,R,7,5,UNIT,5,6,Space Earth,(Zeon),[Dozle Zabi],"<Breach 4> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)【Deploy】If there are 10 or more (Zeon)/(Neo Zeon) Unit cards in your trash, deal 4 damage to all Units with <Blocker>.",GD01,27,1
+Gundam Sandrock,Green,R,5,3,UNIT,4,4,Earth,(Operation Meteor),[Quatre Raberba Winner],【Deploy】You may deploy 1 (Maganac Corps) Unit card from your hand.,GD01,28,1
+Shenlong Gundam,Green,R,5,4,UNIT,4,4,Earth,(Operation Meteor),[Chang Wufei],"<Breach 4> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)【Attack】Choose 1 enemy Unit with <Blocker> that is Lv.3 or lower. Destroy it.",GD01,29,1
+Shenlong Gundam,Green,R,5,4,UNIT,4,4,Earth,(Operation Meteor),[Chang Wufei],"<Breach 4> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)【Attack】Choose 1 enemy Unit with <Blocker> that is Lv.3 or lower. Destroy it.",GD01,29,1
+Rick Dom,Green,U,3,2,UNIT,3,3,Space,(Zeon),-,"<Breach 2> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)",GD01,30,1
+Gelgoog,Green,U,4,2,UNIT,4,3,Space Earth,(Zeon),(Zeon) Trait,-,GD01,31,1
+Gyan,Green,R,4,3,UNIT,4,3,Space Earth,(Zeon),[M'Quve],【When Paired･(Zeon) Pilot】Choose 1 enemy Unit with <Blocker> that is Lv.2 or lower. Destroy it.,GD01,32,1
+Gundam Deathscythe,Green,U,4,2,UNIT,4,3,Earth,(Operation Meteor),[Duo Maxwell],"<Repair 1> (At the end of your turn, this Unit recovers the specified number of HP.)",GD01,33,1
+Gundam Heavyarms,Green,U,4,2,UNIT,3,4,Earth,(Operation Meteor),[Trowa Barton],"【During Pair】This Unit gains <Breach 3>. (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)",GD01,34,1
+Zaku II,Green,C,2,1,UNIT,2,2,Space Earth,(Zeon),-,-,GD01,35,1
+Gouf,Green,C,2,2,UNIT,3,2,Earth,(Zeon),-,-,GD01,36,1
+Gogg,Green,C,2,2,UNIT,2,3,Earth,(Zeon),-,-,GD01,37,1
+Adzam,Green,U,5,4,UNIT,2,5,Earth,(Zeon),(Zeon) Trait,"【Deploy】If 5 or more enemy Units are in play, deal 1 damage to all enemy Units.",GD01,38,1
+Dopp,Green,C,1,1,UNIT,1,1,Earth,(Zeon),-,【Deploy】Look at the top card of your deck. Return it to the top or bottom of your deck.,GD01,39,1
+Wing Gundam,Green,C,5,2,UNIT,4,3,Space Earth,(Operation Meteor),[Heero Yuy],-,GD01,40,1
+Shenlong Gundam,Green,C,4,3,UNIT,4,3,Earth,(Operation Meteor),[Chang Wufei],"<Breach 3> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)",GD01,41,1
+Duo's Leo,Green,C,2,2,UNIT,2,2,Space Earth,(Operation Meteor),[Duo Maxwell],This Unit may choose an active enemy Unit that is Lv.2 or lower as its attack target.,GD01,42,1
+Rasid's Maganac,Green,C,3,2,UNIT,2,3,Space Earth,(Maganac Corps),(Maganac Corps) Trait,"【Deploy】Choose 1 of your green Units. During this turn, it may choose an active enemy Unit with 4 or less AP as its attack target.",GD01,43,1
+Kshatriya,Red,LR,5,4,UNIT,5,4,Space Earth,(Neo Zeon),[Marida Cruz],【When Paired･(Cyber-Newtype)/(Newtype) Pilot】Choose 1 to 2 enemy Units. Deal 1 damage to them.,GD01,44,1
+Kshatriya,Red,LR +,5,4,UNIT,5,4,Space Earth,(Neo Zeon),[Marida Cruz],【When Paired･(Cyber-Newtype)/(Newtype) Pilot】Choose 1 to 2 enemy Units. Deal 1 damage to them.,GD01,44,1
+Duel Gundam (Assault Shroud),Red,LR,5,4,UNIT,4,4,Space Earth,(ZAFT),[Yzak Jule],【When Paired】Look at the top 3 cards of your deck. You may deploy 1 (ZAFT) Unit card that is Lv.4 or lower among them. Return the remaining cards randomly to the bottom of your deck.,GD01,45,1
+Duel Gundam (Assault Shroud),Red,LR +,5,4,UNIT,4,4,Space Earth,(ZAFT),[Yzak Jule],【When Paired】Look at the top 3 cards of your deck. You may deploy 1 (ZAFT) Unit card that is Lv.4 or lower among them. Return the remaining cards randomly to the bottom of your deck.,GD01,45,1
+Buster Gundam,Red,LR,4,2,UNIT,1,4,Space Earth,(ZAFT),[Dearka Elthman],"【Activate･Main】<Support 3> (Rest this Unit. 1 other friendly Unit gets AP+(specified amount) during this turn.) 【During Pair･(Coordinator) Pilot】【Once per Turn】When you use this Unit's <Support> to increase a (ZAFT) Unit's AP, set this Unit as active.",GD01,46,1
+Buster Gundam,Red,LR +,4,2,UNIT,1,4,Space Earth,(ZAFT),[Dearka Elthman],"【Activate･Main】<Support 3> (Rest this Unit. 1 other friendly Unit gets AP+(specified amount) during this turn.) 【During Pair･(Coordinator) Pilot】【Once per Turn】When you use this Unit's <Support> to increase a (ZAFT) Unit's AP, set this Unit as active.",GD01,46,1
+Shamblo,Red,R,8,7,UNIT,6,5,Earth,(Zeon),(Newtype) Trait / (Cyber-Newtype) Trait,"【Attack】If 2 or more other rested friendly Units are in play, choose 1 enemy Unit. Deal 3 damage to it.",GD01,47,1
+Shamblo,Red,R +,8,7,UNIT,6,5,Earth,(Zeon),(Newtype) Trait / (Cyber-Newtype) Trait,"【Attack】If 2 or more other rested friendly Units are in play, choose 1 enemy Unit. Deal 3 damage to it.",GD01,47,1
+Zaku I Sniper Type,Red,R,2,2,UNIT,-,1,Space Earth,(Zeon),(Zeon) Trait,"【Activate･Main】<Support 1> (Rest this Unit. 1 other friendly Unit gets AP+(specified amount) during this turn.) 【Deploy】Look at the top card of your deck. If it is a (Zeon)/(Neo Zeon) Unit card, you may reveal it and add it to your hand. Return any remaining card to the bottom of your deck.",GD01,48,1
+Blitz Gundam,Red,R,4,3,UNIT,3,3,Space Earth,(ZAFT),[Nicol Amarfi],"【Deploy】Choose 1 of your (ZAFT) Units with 5 or more AP. It gains <First Strike> during this turn. (While this Unit is attacking, it deals damage before the enemy Unit.)",GD01,49,1
+LaGOWE,Red,R,3,2,UNIT,2,3,Earth,(ZAFT),(ZAFT) Trait,"【Attack】If this Unit has 5 or more AP and it is attacking an enemy Unit, choose 1 enemy Unit. Deal 2 damage to it.",GD01,50,1
+LaGOWE,Red,R +,3,2,UNIT,2,3,Earth,(ZAFT),(ZAFT) Trait,"【Attack】If this Unit has 5 or more AP and it is attacking an enemy Unit, choose 1 enemy Unit. Deal 2 damage to it.",GD01,50,1
+Kshatriya,Red,U,4,2,UNIT,3,4,Space Earth,(Neo Zeon),(Cyber-Newtype) Trait,-,GD01,51,1
+Geara Zulu (Guards Type),Red,U,4,3,UNIT,2,4,Space Earth,(Neo Zeon),-,【Deploy】Choose 1 enemy Unit. Deal 1 damage to it.,GD01,52,1
+Geara Doga (Heavy Armed Type),Red,U,4,3,UNIT,4,2,Space Earth,(Neo Zeon),-,【Activate･Main】【Once per Turn】①：Choose 1 enemy Unit with 2 or less AP. Deal 1 damage to it.,GD01,53,1
+Duel Gundam,Red,R,3,2,UNIT,3,3,Space Earth,(ZAFT),(ZAFT) Trait,"While this Unit has 5 or more AP, it gains <Breach 3>. (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)",GD01,54,1
+BuCUE,Red,U,3,2,UNIT,2,3,Earth,(ZAFT),-,【Activate･Main】<Support 2> (Rest this Unit. 1 other friendly Unit gets AP+(specified amount) during this turn.),GD01,55,1
+Geara Doga (Sleeves),Red,C,3,2,UNIT,2,3,Space Earth,(Neo Zeon),-,【Destroyed】Choose 1 enemy Unit with 5 or less AP. Deal 1 damage to it.,GD01,56,1
+Dreissen (Sleeves),Red,C,2,2,UNIT,2,3,Space Earth,(Neo Zeon),-,-,GD01,57,1
+Galluss-K,Red,C,3,2,UNIT,3,2,Space Earth,(Zeon),-,【Activate･Action】【Once per Turn】①：Choose 1 Unit that is Lv.4 or higher. It gets AP+1 during this battle.,GD01,58,1
+Zee Zulu,Red,C,2,2,UNIT,2,2,Earth,(Neo Zeon),-,"【Attack】If you are attacking the enemy player, this Unit gets AP+2 during this battle.",GD01,59,1
+Zaku Mariner,Red,C,2,1,UNIT,2,2,Earth,(Zeon),-,-,GD01,60,1
+ZuOOT,Red,C,1,1,UNIT,-,2,Earth,(ZAFT),-,【Activate･Main】<Support 1> (Rest this Unit. 1 other friendly Unit gets AP+(specified amount) during this turn.),GD01,61,1
+GOOhN,Red,C,1,1,UNIT,1,2,Earth,(ZAFT),-,-,GD01,62,1
+ZnO,Red,U,2,2,UNIT,2,1,Earth,(ZAFT),(ZAFT) Trait,"During your turn, while this Unit is battling an enemy Unit that is Lv.2 or lower, it gains <First Strike>. (While this Unit is attacking, it deals damage before the enemy Unit.)",GD01,63,1
+DINN,Red,C,2,2,UNIT,3,2,Earth,(ZAFT),-,-,GD01,64,1
+Freedom Gundam,White,LR,7,5,UNIT,4,6,Space Earth,(Triple Ship Alliance),[Kira Yamato],"<Blocker> (Rest this Unit to change the attack target to it.) 【During Pair】【Once per Turn】When you pair a Pilot with this Unit or one of your white Units, choose 1 enemy Unit. It gets AP-2 during this turn.",GD01,65,1
+Freedom Gundam,White,LR +,7,5,UNIT,4,6,Space Earth,(Triple Ship Alliance),[Kira Yamato],"<Blocker> (Rest this Unit to change the attack target to it.) 【During Pair】【Once per Turn】When you pair a Pilot with this Unit or one of your white Units, choose 1 enemy Unit. It gets AP-2 during this turn.",GD01,65,1
+Justice Gundam,White,LR,7,5,UNIT,5,5,Space Earth,(Triple Ship Alliance),[Athrun Zala],【Deploy】Deploy 1 [Fatum-00]((Triple Ship Alliance)･AP2･HP2･<Blocker>) Unit token. 【During Pair】【Attack】Choose 1 of your (Triple Ship Alliance) Unit tokens. It may attack on the turn it is deployed.,GD01,66,1
+Justice Gundam,White,LR +,7,5,UNIT,5,5,Space Earth,(Triple Ship Alliance),[Athrun Zala],【Deploy】Deploy 1 [Fatum-00]((Triple Ship Alliance)･AP2･HP2･<Blocker>) Unit token. 【During Pair】【Attack】Choose 1 of your (Triple Ship Alliance) Unit tokens. It may attack on the turn it is deployed.,GD01,66,1
+Gundam Aerial Rebuild,White,LR,6,5,UNIT,5,4,Space Earth,(Academy),[Suletta Mercury],【When Paired】Choose 1 Command card that is Lv.5 or lower from your trash. Add it to your hand.,GD01,67,1
+Gundam Aerial Rebuild,White,LR +,6,5,UNIT,5,4,Space Earth,(Academy),[Suletta Mercury],【When Paired】Choose 1 Command card that is Lv.5 or lower from your trash. Add it to your hand.,GD01,67,1
+Gundam Aerial Rebuild,White,LR ++,6,5,UNIT,5,4,Space Earth,(Academy),[Suletta Mercury],【When Paired】Choose 1 Command card that is Lv.5 or lower from your trash. Add it to your hand.,GD01,67,1
+Perfect Strike Gundam,White,R,5,3,UNIT,4,4,Space Earth,(Triple Ship Alliance),(Earth Alliance) Trait,<Blocker> (Rest this Unit to change the attack target to it.) 【Deploy】Choose 1 enemy Unit with 1 HP. Return it to its owner's hand.,GD01,68,1
+Strike Rouge,White,R,3,2,UNIT,3,2,Space Earth,(Triple Ship Alliance),(Orb) Trait,【Activate･Main】【Once per Turn】①：Choose 1 of your rested white Units with <Blocker>. Set it as active. It can't attack during this turn.,GD01,69,1
+Strike Rouge,White,R +,3,2,UNIT,3,2,Space Earth,(Triple Ship Alliance),(Orb) Trait,【Activate･Main】【Once per Turn】①：Choose 1 of your rested white Units with <Blocker>. Set it as active. It can't attack during this turn.,GD01,69,1
+Gundam Aerial,White,R,5,3,UNIT,3,3,Space Earth,(Academy),[Suletta Mercury],"While there are 4 or more Command cards in your trash, this card in your hand gets cost -2.",GD01,70,1
+Gundam Pharact,White,R,4,3,UNIT,3,4,Space Earth,(Academy),(Academy) Trait,【During Link】【Attack】Choose 1 enemy Unit. It gets AP-2 during this battle.,GD01,71,1
+Gundam Pharact,White,R +,4,3,UNIT,3,4,Space Earth,(Academy),(Academy) Trait,【During Link】【Attack】Choose 1 enemy Unit. It gets AP-2 during this battle.,GD01,71,1
+Launcher Strike Gundam,White,U,4,3,UNIT,3,4,Space Earth,(Earth Alliance),(Earth Alliance) Trait,<Blocker> (Rest this Unit to change the attack target to it.),GD01,72,1
+Sword Strike Gundam,White,U,4,3,UNIT,4,3,Space Earth,(Earth Alliance),(Earth Alliance) Trait,【During Link】【Attack】Choose 1 enemy Unit with 2 or less HP. Return it to its owner's hand.,GD01,73,1
+Chuchu's Demi Trainer,White,R,2,2,UNIT,3,1,Space Earth,(Academy),[Chuatury Panlunch],"【Attack】Draw 1. Then, discard 1.",GD01,74,1
+Darilbalde,White,U,3,2,UNIT,4,2,Space Earth,(Academy),(Academy) Trait,【Deploy】Choose 1 enemy Unit with 1 HP. Return it to its owner's hand.,GD01,75,1
+Michaelis,White,U,3,2,UNIT,3,3,Space Earth,(Academy),(Academy) Trait,"While there are 4 or more Command cards in your trash, this Unit gets AP+1 and HP+1.",GD01,76,1
+Strike Gundam,White,C,4,2,UNIT,3,4,Space Earth,(Earth Alliance),[Kira Yamato],-,GD01,77,1
+Mistral,White,C,1,1,UNIT,1,1,Space,(Earth Alliance),-,【Deploy】Choose 1 enemy Unit. It gets AP-1 during this turn.,GD01,78,1
+Skygrasper,White,C,2,2,UNIT,2,2,Earth,(Earth Alliance),(Earth Alliance) Trait,-,GD01,79,1
+Cagalli's Skygrasper,White,C,2,2,UNIT,2,1,Earth,(Earth Alliance),[Cagalli Yula Athha],【Destroyed】Choose 1 enemy Unit that is Lv.2 or lower. Return it to its owner's hand.,GD01,80,1
+M1 Astray,White,C,2,2,UNIT,2,2,Space Earth,(Triple Ship Alliance),-,"While you have another (Triple Ship Alliance) Unit in play, this Unit gets AP+1 and <Blocker>. (Rest this Unit to change the attack target to it.)",GD01,81,1
+Gundam Aerial (Mirasoul Flight Unit),White,U,4,3,UNIT,4,3,Space Earth,(Academy),[Suletta Mercury],【During Pair】【Activate･Action】【Once per Turn】②：Choose 1 enemy Unit. It gets AP-1 during this battle.,GD01,82,1
+Guel's Dilanza,White,C,2,2,UNIT,2,2,Space Earth,(Academy),(Academy) Trait,-,GD01,83,1
+Beguir-Pente,White,C,2,2,UNIT,2,3,Space Earth,(Academy),-,-,GD01,84,1
+Demi Garrison,White,C,2,1,UNIT,2,2,Space Earth,(Academy),-,-,GD01,85,1
+Gundam Lfrith,White,C,3,2,UNIT,2,4,Space Earth,(Vanadis Institute),-,<Blocker> (Rest this Unit to change the attack target to it.),GD01,86,1
+Gundam,Blue,LR,4,3,UNIT,3,4,Space Earth,(Earth Federation) (White Base Team),[Amuro Ray],"<Repair 2> (At the end of your turn, this Unit recovers the specified number of HP.) 【During Pair】During your turn, all your Units get AP+1.",ST01,1,1
+Gundam,Blue,LR +,4,3,UNIT,3,4,Space Earth,(Earth Federation) (White Base Team),[Amuro Ray],"<Repair 2> (At the end of your turn, this Unit recovers the specified number of HP.) 【During Pair】During your turn, all your Units get AP+1.",ST01,1,1
+Gundam (MA Form),Blue,C,5,3,UNIT,4,3,Space,(Earth Federation) (White Base Team),[Amuro Ray],【When Paired･(White Base Team) Pilot】Draw 1.,ST01,2,1
+Gundam (MA Form),Blue,C +,5,3,UNIT,4,3,Space,(Earth Federation) (White Base Team),[Amuro Ray],【When Paired･(White Base Team) Pilot】Draw 1.,ST01,2,1
+Guncannon,Blue,C,3,2,UNIT,2,4,Space Earth,(Earth Federation) (White Base Team),[Kai Shiden],-,ST01,3,1
+Guncannon,Blue,C +,3,2,UNIT,2,4,Space Earth,(Earth Federation) (White Base Team),[Kai Shiden],-,ST01,3,1
+Guntank,Blue,C,3,2,UNIT,2,3,Space Earth,(Earth Federation) (White Base Team),[Hayato Kobayashi],【Deploy】Choose 1 enemy Unit with 2 or less HP. Rest it.,ST01,4,1
+Guntank,Blue,C +,3,2,UNIT,2,3,Space Earth,(Earth Federation) (White Base Team),[Hayato Kobayashi],【Deploy】Choose 1 enemy Unit with 2 or less HP. Rest it.,ST01,4,1
+GM,Blue,C,2,1,UNIT,2,2,Space Earth,(Earth Federation),-,-,ST01,5,1
+GM,Blue,C +,2,1,UNIT,2,2,Space Earth,(Earth Federation),-,-,ST01,5,1
+Gundam Aerial (Permet Score Six),White,LR,5,4,UNIT,4,4,Space Earth,(Academy),[Suletta Mercury],【When Paired】Choose 1 enemy Unit that is Lv.5 or lower. It gets AP-3 during this turn.,ST01,6,1
+Gundam Aerial (Permet Score Six),White,LR +,5,4,UNIT,4,4,Space Earth,(Academy),[Suletta Mercury],【When Paired】Choose 1 enemy Unit that is Lv.5 or lower. It gets AP-3 during this turn.,ST01,6,1
+Gundam Aerial (Bit on Form),White,C,4,2,UNIT,3,4,Space Earth,(Academy),[Suletta Mercury],-,ST01,7,1
+Gundam Aerial (Bit on Form),White,C +,4,2,UNIT,3,4,Space Earth,(Academy),[Suletta Mercury],-,ST01,7,1
+Demi Trainer,White,C,1,1,UNIT,1,1,Space Earth,(Academy),-,<Blocker> (Rest this Unit to change the attack target to it.),ST01,8,1
+Demi Trainer,White,C +,1,1,UNIT,1,1,Space Earth,(Academy),-,<Blocker> (Rest this Unit to change the attack target to it.),ST01,8,1
+Zowort,White,C,2,2,UNIT,3,2,Space Earth,(Academy),-,<Blocker> (Rest this Unit to change the attack target to it.) This Unit can't choose the enemy player as its attack target.,ST01,9,1
+Zowort,White,C +,2,2,UNIT,3,2,Space Earth,(Academy),-,<Blocker> (Rest this Unit to change the attack target to it.) This Unit can't choose the enemy player as its attack target.,ST01,9,1
+Wing Gundam,Green,LR,6,4,UNIT,4,5,Space Earth,(Operation Meteor),[Heero Yuy],"<Breach 5> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.) This Unit may choose an active enemy Unit that is Lv.4 or lower as its attack target.",ST02,1,1
+Wing Gundam,Green,LR +,6,4,UNIT,4,5,Space Earth,(Operation Meteor),[Heero Yuy],"<Breach 5> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to a card in that opponent's shield area.) This Unit may choose an active enemy Unit that is Lv.4 or lower as its attack target.",ST02,1,1
+Wing Gundam (Bird Mode),Green,C,3,3,UNIT,2,2,Space Earth,(Operation Meteor),[Heero Yuy],【Deploy】Place 1 EX Resource.,ST02,2,1
+Wing Gundam (Bird Mode),Green,C +,3,3,UNIT,2,2,Space Earth,(Operation Meteor),[Heero Yuy],【Deploy】Place 1 EX Resource.,ST02,2,1
+Gundam Heavyarms,Green,C,5,3,UNIT,3,4,Earth,(Operation Meteor),[Trowa Barton],"【During Pair】During your turn, when this Unit destroys an enemy Unit with battle damage, deal 1 damage to all enemy Units that are Lv.3 or lower.",ST02,3,1
+Gundam Heavyarms,Green,C +,5,3,UNIT,3,4,Earth,(Operation Meteor),[Trowa Barton],"【During Pair】During your turn, when this Unit destroys an enemy Unit with battle damage, deal 1 damage to all enemy Units that are Lv.3 or lower.",ST02,3,1
+Gundam Sandrock,Green,C,4,2,UNIT,4,3,Earth,(Operation Meteor),[Quatre Raberba Winner],-,ST02,4,1
+Gundam Sandrock,Green,C +,4,2,UNIT,4,3,Earth,(Operation Meteor),[Quatre Raberba Winner],-,ST02,4,1
+Maganac,Green,C,2,2,UNIT,3,2,Space Earth,(Maganac Corps),-,-,ST02,5,1
+Maganac,Green,C +,2,2,UNIT,3,2,Space Earth,(Maganac Corps),-,-,ST02,5,1
+Tallgeese,Blue,LR,5,4,UNIT,4,4,Space Earth,(OZ),[Zechs Merquise],【Activate･Main】【Once per Turn】④：Set this Unit as active.,ST02,6,1
+Tallgeese,Blue,LR +,5,4,UNIT,4,4,Space Earth,(OZ),[Zechs Merquise],【Activate･Main】【Once per Turn】④：Set this Unit as active.,ST02,6,1
+Leo,Blue,C,2,2,UNIT,2,2,Space Earth,(OZ),(OZ) Trait,-,ST02,7,1
+Leo,Blue,C +,2,2,UNIT,2,2,Space Earth,(OZ),(OZ) Trait,-,ST02,7,1
+Aries,Blue,C,2,2,UNIT,2,1,Earth,(OZ),-,<Blocker> (Rest this Unit to change the attack target to it.),ST02,8,1
+Aries,Blue,C +,2,2,UNIT,2,1,Earth,(OZ),-,<Blocker> (Rest this Unit to change the attack target to it.),ST02,8,1
+Tragos,Blue,C,1,1,UNIT,1,1,Earth,(OZ),-,<Blocker> (Rest this Unit to change the attack target to it.),ST02,9,1
+Tragos,Blue,C +,1,1,UNIT,1,1,Earth,(OZ),-,<Blocker> (Rest this Unit to change the attack target to it.),ST02,9,1
+Sinanju,Red,LR,6,5,UNIT,5,4,Space Earth,(Neo Zeon),[Full Frontal],"【During Pair】This Unit gains <High-Maneuver>. (This Unit can't be blocked.) During your turn, when this Unit destroys an enemy shield area card with battle damage, choose 1 enemy Unit. Deal 2 damage to it.",ST03,1,1
+Sinanju,Red,LR +,6,5,UNIT,5,4,Space Earth,(Neo Zeon),[Full Frontal],"【During Pair】This Unit gains <High-Maneuver>. (This Unit can't be blocked.) During your turn, when this Unit destroys an enemy shield area card with battle damage, choose 1 enemy Unit. Deal 2 damage to it.",ST03,1,1
+Angelo's Geara Zulu,Red,C,4,3,UNIT,3,3,Space Earth,(Neo Zeon),[Angelo Sauper],【Activate･Main】<Support 2> (Rest this Unit. 1 other friendly Unit gets AP+(specified amount) during this turn.),ST03,2,1
+Angelo's Geara Zulu,Red,C +,4,3,UNIT,3,3,Space Earth,(Neo Zeon),[Angelo Sauper],【Activate･Main】<Support 2> (Rest this Unit. 1 other friendly Unit gets AP+(specified amount) during this turn.),ST03,2,1
+Geara Zulu,Red,C,3,2,UNIT,3,2,Space Earth,(Neo Zeon),(Neo Zeon) Trait,-,ST03,3,1
+Geara Zulu,Red,C +,3,2,UNIT,3,2,Space Earth,(Neo Zeon),(Neo Zeon) Trait,-,ST03,3,1
+Gaza D (Sleeves),Red,C,2,2,UNIT,2,1,Space Earth,(Neo Zeon),-,【Activate･Main】<Support 2> (Rest this Unit. 1 other friendly Unit gets AP+(specified amount) during this turn.),ST03,4,1
+Gaza D (Sleeves),Red,C +,2,2,UNIT,2,1,Space Earth,(Neo Zeon),-,【Activate･Main】<Support 2> (Rest this Unit. 1 other friendly Unit gets AP+(specified amount) during this turn.),ST03,4,1
+Dra-C (Sleeves),Red,C,1,1,UNIT,1,2,Space,(Neo Zeon),-,-,ST03,5,1
+Dra-C (Sleeves),Red,C +,1,1,UNIT,1,2,Space,(Neo Zeon),-,-,ST03,5,1
+Char's Zaku Ⅱ,Green,LR,3,2,UNIT,3,2,Space Earth,(Zeon),[Char Aznable],【Destroyed】Look at the top 3 cards of your deck. You may reveal 1 (Zeon)/(Neo Zeon) Unit card among them and add it to your hand. Return the remaining cards randomly to the bottom of your deck.,ST03,6,1
+Char's Zaku Ⅱ,Green,LR +,3,2,UNIT,3,2,Space Earth,(Zeon),[Char Aznable],【Destroyed】Look at the top 3 cards of your deck. You may reveal 1 (Zeon)/(Neo Zeon) Unit card among them and add it to your hand. Return the remaining cards randomly to the bottom of your deck.,ST03,6,1
+Zaku Ⅰ,Green,C,1,1,UNIT,1,2,Space Earth,(Zeon),-,-,ST03,7,1
+Zaku Ⅰ,Green,C +,1,1,UNIT,1,2,Space Earth,(Zeon),-,-,ST03,7,1
+Zaku Ⅱ,Green,C,2,1,UNIT,1,2,Space Earth,(Zeon),-,【Attack】This Unit gets AP+2 during this turn.,ST03,8,1
+Zaku Ⅱ,Green,C +,2,1,UNIT,1,2,Space Earth,(Zeon),-,【Attack】This Unit gets AP+2 during this turn.,ST03,8,1
+Gouf,Green,C,3,3,UNIT,2,3,Earth,(Zeon),[Ramba Ral],【Deploy】Deploy 1 rested [Zaku Ⅱ]((Zeon)･AP1･HP1) Unit token.,ST03,9,1
+Gouf,Green,C +,3,3,UNIT,2,3,Earth,(Zeon),[Ramba Ral],【Deploy】Deploy 1 rested [Zaku Ⅱ]((Zeon)･AP1･HP1) Unit token.,ST03,9,1
+Aile Strike Gundam,White,LR,5,4,UNIT,4,4,Space Earth,(Earth Alliance),[Kira Yamato],<Blocker> (Rest this Unit to change the attack target to it.) 【When Paired･Lv.4 or Higher Pilot】Choose 1 enemy Unit with 4 or less HP. Return it to its owner's hand.,ST04,1,1
+Aile Strike Gundam,White,LR +,5,4,UNIT,4,4,Space Earth,(Earth Alliance),[Kira Yamato],<Blocker> (Rest this Unit to change the attack target to it.) 【When Paired･Lv.4 or Higher Pilot】Choose 1 enemy Unit with 4 or less HP. Return it to its owner's hand.,ST04,1,1
+Strike Gundam,White,C,4,2,UNIT,3,3,Space Earth,(Earth Alliance),[Kira Yamato],"【Deploy】Draw 1. Then, discard 1.",ST04,2,1
+Strike Gundam,White,C +,4,2,UNIT,3,3,Space Earth,(Earth Alliance),[Kira Yamato],"【Deploy】Draw 1. Then, discard 1.",ST04,2,1
+Moebius Zero,White,C,3,2,UNIT,2,4,Space,(Earth Alliance),[Mu La Flaga],-,ST04,3,1
+Moebius Zero,White,C +,3,2,UNIT,2,4,Space,(Earth Alliance),[Mu La Flaga],-,ST04,3,1
+Moebius,White,C,1,1,UNIT,1,1,Space,(Earth Alliance),-,<Blocker> (Rest this Unit to change the attack target to it.),ST04,4,1
+Moebius,White,C +,1,1,UNIT,1,1,Space,(Earth Alliance),-,<Blocker> (Rest this Unit to change the attack target to it.),ST04,4,1
+Strike Dagger,White,C,2,2,UNIT,3,2,Space Earth,(Earth Alliance),-,-,ST04,5,1
+Strike Dagger,White,C +,2,2,UNIT,3,2,Space Earth,(Earth Alliance),-,-,ST04,5,1
+Aegis Gundam,Red,LR,4,3,UNIT,4,3,Space Earth,(ZAFT),[Athrun Zala],"【Attack】If this Unit has 5 or more AP, choose 1 enemy Unit that is Lv.5 or higher. Deal 3 damage to it.",ST04,6,1
+Aegis Gundam,Red,LR +,4,3,UNIT,4,3,Space Earth,(ZAFT),[Athrun Zala],"【Attack】If this Unit has 5 or more AP, choose 1 enemy Unit that is Lv.5 or higher. Deal 3 damage to it.",ST04,6,1
+Aegis Gundam (MA Mode),Red,C,4,3,UNIT,3,4,Space Earth,(ZAFT),[Athrun Zala],"<Breach 3> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)",ST04,7,1
+Aegis Gundam (MA Mode),Red,C +,4,3,UNIT,3,4,Space Earth,(ZAFT),[Athrun Zala],"<Breach 3> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)",ST04,7,1
+Ginn,Red,C,2,1,UNIT,2,2,Space Earth,(ZAFT),-,-,ST04,8,1
+Ginn,Red,C +,2,1,UNIT,2,2,Space Earth,(ZAFT),-,-,ST04,8,1
+Miguel's Ginn,Red,C,2,2,UNIT,3,1,Space Earth,(ZAFT),[Miguel Ayman],"【During Pair】【Destroyed】If you have another Link Unit in play, draw 1.",ST04,9,1
+Miguel's Ginn,Red,C +,2,2,UNIT,3,1,Space Earth,(ZAFT),[Miguel Ayman],"【During Pair】【Destroyed】If you have another Link Unit in play, draw 1.",ST04,9,1
+Gundam,Blue,LR,4,3,UNIT,3,4,Space Earth,(Earth Federation) (White Base Team),[Amuro Ray],"<Repair 2> (At the end of your turn, this Unit recovers the specified number of HP.) 【During Pair】During your turn, all your Units get AP+1.",ST01,1,β
+Gundam,Blue,LR +,4,3,UNIT,3,4,Space Earth,(Earth Federation) (White Base Team),[Amuro Ray],"<Repair 2> (At the end of your turn, this Unit recovers the specified number of HP.) 【During Pair】During your turn, all your Units get AP+1.",ST01,1,β
+Gundam (MA Form),Blue,C,5,3,UNIT,4,3,Space,(Earth Federation) (White Base Team),[Amuro Ray],【When Paired･(White Base Team) Pilot】Draw 1.,ST01,2,β
+GM,Blue,C,2,1,UNIT,2,2,Space Earth,(Earth Federation),-,-,ST01,5,β
+Gundam Aerial (Bit on Form),White,C,4,2,UNIT,3,4,Space Earth,(Academy),[Suletta Mercury],-,ST01,7,β
+Demi Trainer,White,C,1,1,UNIT,1,1,Space Earth,(Academy),-,<Blocker> (Rest this Unit to change the attack target to it.),ST01,8,β
+Wing Gundam,Green,LR,6,4,UNIT,4,5,Space Earth,(Operation Meteor),[Heero Yuy],"<Breach 5> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to a card in that opponent's shield area.) This Unit may choose an active enemy Unit that is Lv.4 or lower as its attack target.",ST02,1,β
+Wing Gundam,Green,LR +,6,4,UNIT,4,5,Space Earth,(Operation Meteor),[Heero Yuy],"<Breach 5> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to a card in that opponent's shield area.) This Unit may choose an active enemy Unit that is Lv.4 or lower as its attack target.",ST02,1,β
+Wing Gundam (Bird Mode),Green,C,3,3,UNIT,2,2,Space Earth,(Operation Meteor),[Heero Yuy],【Deploy】Place 1 EX Resource.,ST02,2,β
+Maganac,Green,C,2,2,UNIT,3,2,Space Earth,(Maganac Corps),-,-,ST02,5,β
+Zaku Ⅰ,Green,C,1,1,UNIT,1,2,Space Earth,(Zeon),-,-,ST03,7,β
+Zaku Ⅱ,Green,C,2,1,UNIT,1,2,Space Earth,(Zeon),-,【Attack】This Unit gets AP+2 during this turn.,ST03,8,β
+Aile Strike Gundam,White,LR,5,4,UNIT,4,4,Space Earth,(Earth Alliance),[Kira Yamato],<Blocker> (Rest this Unit to change the attack target to it.) 【When Paired･Lv.4 or Higher Pilot】Choose 1 enemy Unit with 4 or less HP. Return it to its owner's hand.,ST04,1,β
+Aile Strike Gundam,White,LR +,5,4,UNIT,4,4,Space Earth,(Earth Alliance),[Kira Yamato],<Blocker> (Rest this Unit to change the attack target to it.) 【When Paired･Lv.4 or Higher Pilot】Choose 1 enemy Unit with 4 or less HP. Return it to its owner's hand.,ST04,1,β
+Strike Gundam,White,C,4,2,UNIT,3,3,Space Earth,(Earth Alliance),[Kira Yamato],"【Deploy】Draw 1. Then, discard 1.",ST04,2,β
+Strike Dagger,White,C,2,2,UNIT,3,2,Space Earth,(Earth Alliance),-,-,ST04,5,β
+Guncannon,Blue,R,3,2,UNIT,2,3,Space Earth,(Earth Federation) (White Base Team),(White Base Team) Trait,"<Repair 1> (At the end of your turn, this Unit recovers the specified number of HP.) 【When Paired】Choose 1 enemy Unit with 2 or less HP. Rest it.",GD01,4,β
+Guncannon,Blue,R +,3,2,UNIT,2,3,Space Earth,(Earth Federation) (White Base Team),(White Base Team) Trait,"<Repair 1> (At the end of your turn, this Unit recovers the specified number of HP.) 【When Paired】Choose 1 enemy Unit with 2 or less HP. Rest it.",GD01,4,β
+Unicorn Gundam (Unicorn Mode),Blue,R,5,4,UNIT,4,3,Space Earth,(Civilian),[Banagher Links],"【During Pair】【Destroyed】If this is a Link Unit, return its paired Pilot to its owner's hand. Then, discard 1.",GD01,5,β
+Guntank,Blue,U,2,1,UNIT,1,2,Space Earth,(Earth Federation) (White Base Team),-,【Deploy】Choose 1 rested enemy Unit. Deal 1 damage to it.,GD01,8,β
+G-Fighter,Blue,U,3,2,UNIT,3,2,Space Earth,(Earth Federation) (White Base Team),(White Base Team) Trait,【Deploy】Choose 1 of your (White Base Team) Units. It gains <High-Maneuver> during this turn. (This Unit can't be blocked.),GD01,9,β
+Loto,Blue,U,2,2,UNIT,2,2,Space Earth,(Earth Federation),(Earth Federation) Trait,-,GD01,11,β
+Gundam,Blue,C,4,2,UNIT,3,4,Space Earth,(Earth Federation) (White Base Team),[Amuro Ray],-,GD01,13,β
+Ball,Blue,C,1,1,UNIT,1,1,Space,(Earth Federation),-,【Attack】Choose 1 of your Units. It recovers 1 HP.,GD01,15,β
+Jegan,Blue,C,3,2,UNIT,2,3,Space Earth,(Earth Federation),-,"While you have 2 or more (Earth Federation) Units in play, this card in your hand gets cost -1.",GD01,16,β
+ReZEL,Blue,C,3,2,UNIT,4,3,Space Earth,(Earth Federation),-,-,GD01,18,β
+Char's Zaku Ⅱ,Green,R,3,2,UNIT,3,2,Space Earth,(Zeon),[Char Aznable],【During Pair】【Destroyed】Deploy 1 rested [Char's Zaku Ⅱ]((Zeon)･AP3･HP1) Unit token.,GD01,26,β
+Char's Zaku Ⅱ,Green,R +,3,2,UNIT,3,2,Space Earth,(Zeon),[Char Aznable],【During Pair】【Destroyed】Deploy 1 rested [Char's Zaku Ⅱ]((Zeon)･AP3･HP1) Unit token.,GD01,26,β
+Gundam Sandrock,Green,R,5,3,UNIT,4,4,Earth,(Operation Meteor),[Quatre Raberba Winner],【Deploy】You may deploy 1 (Maganac Corps) Unit card from your hand.,GD01,28,β
+Rick Dom,Green,U,3,2,UNIT,3,3,Space,(Zeon),-,"<Breach 2> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to a card in that opponent's shield area.)",GD01,30,β
+Gelgoog,Green,U,4,2,UNIT,4,3,Space Earth,(Zeon),(Zeon) Trait,-,GD01,31,β
+Gundam Heavyarms,Green,U,4,2,UNIT,3,4,Earth,(Operation Meteor),[Trowa Barton],"【During Pair】This Unit gains <Breach 3>. (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to a card in that opponent's shield area.)",GD01,34,β
+Wing Gundam,Green,C,5,2,UNIT,4,3,Space Earth,(Operation Meteor),[Heero Yuy],-,GD01,40,β
+Shenlong Gundam,Green,C,4,3,UNIT,4,3,Earth,(Operation Meteor),[Chang Wufei],"<Breach 3> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to a card in that opponent's shield area.)",GD01,41,β
+Perfect Strike Gundam,White,R,5,3,UNIT,4,4,Space Earth,(Triple Ship Alliance),(Earth Alliance) Trait,<Blocker> (Rest this Unit to change the attack target to it.) 【Deploy】Choose 1 enemy Unit with 1 HP. Return it to its owner's hand.,GD01,68,β
+Gundam Aerial,White,R,5,3,UNIT,3,3,Space Earth,(Academy),[Suletta Mercury],"While there are 4 or more Command cards in your trash, this card in your hand gets cost -2.",GD01,70,β
+Gundam Aerial,White,R +,5,3,UNIT,3,3,Space Earth,(Academy),[Suletta Mercury],"While there are 4 or more Command cards in your trash, this card in your hand gets cost -2.",GD01,70,β
+Launcher Strike Gundam,White,U,4,3,UNIT,3,4,Space Earth,(Earth Alliance),(Earth Alliance) Trait,<Blocker> (Rest this Unit to change the attack target to it.),GD01,72,β
+Darilbalde,White,U,3,2,UNIT,4,2,Space Earth,(Academy),(Academy) Trait,【Deploy】Choose 1 enemy Unit with 1 HP. Return it to its owner's hand.,GD01,75,β
+Michaelis,White,U,3,2,UNIT,3,3,Space Earth,(Academy),(Academy) Trait,"While there are 4 or more Command cards in your trash, this Unit gets AP+1 and HP+1.",GD01,76,β
+Strike Gundam,White,C,4,2,UNIT,3,4,Space Earth,(Earth Alliance),[Kira Yamato],-,GD01,77,β
+M1 Astray,White,C,2,2,UNIT,2,2,Space Earth,(Triple Ship Alliance),-,"While you have another (Triple Ship Alliance) Unit in play, this Unit gets AP+1 and <Blocker>. (Rest this Unit to change the attack target to it.)",GD01,81,β
+Wing Gundam (Bird Mode),Green,C,3,3,UNIT,2,2,Space Earth,(Operation Meteor),[Heero Yuy],【Deploy】Place 1 EX Resource.,ST02,2,P
+Wing Gundam (Bird Mode),Green,C +,3,3,UNIT,2,2,Space Earth,(Operation Meteor),[Heero Yuy],【Deploy】Place 1 EX Resource.,ST02,2,P
+Strike Gundam,White,C,4,2,UNIT,3,3,Space Earth,(Earth Alliance),[Kira Yamato],"【Deploy】Draw 1. Then, discard 1.",ST04,2,P
+Unicorn Gundam (Unicorn Mode),Blue,R,5,4,UNIT,4,3,Space Earth,(Civilian),[Banagher Links],"【During Link】【Destroyed】If this is a Link Unit, return its paired Pilot to its owner's hand. Then, discard 1.",GD01,5,P
+Gundam,Blue,C,4,2,UNIT,3,4,Space Earth,(Earth Federation) (White Base Team),[Amuro Ray],-,GD01,13,P
+Jegan,Blue,C,3,2,UNIT,2,3,Space Earth,(Earth Federation),-,"While you have 2 or more (Earth Federation) Units in play, this card in your hand gets cost -1.",GD01,16,P
+Jegan,Blue,C +,3,2,UNIT,2,3,Space Earth,(Earth Federation),-,"While you have 2 or more (Earth Federation) Units in play, this card in your hand gets cost -1.",GD01,16,P
+Kshatriya,Red,U,4,2,UNIT,3,4,Space Earth,(Neo Zeon),Trait [Enhanced Human],-,GD01,51,P
+Kshatriya,Red,U +,4,2,UNIT,3,4,Space Earth,(Neo Zeon),(Cyber-Newtype) Trait,-,GD01,51,P
+Gundam Aerial Rebuild,White,LR,6,5,UNIT,5,4,Space Earth,(Academy),[Suletta Mercury],【When Paired】Choose 1 Command card that is Lv.5 or lower from your trash. Add it to your hand.,GD01,67,P
+Gundam Aerial,White,R,5,3,UNIT,3,3,Space Earth,(Academy),[Suletta Mercury],"While there are 4 or more Command cards in your trash, this card in your hand gets cost -2.",GD01,70,P
+Gundam Aerial,White,R +,5,3,UNIT,3,3,Space Earth,(Academy),[Suletta Mercury],"While there are 4 or more Command cards in your trash, this card in your hand gets cost -2.",GD01,70,P
+Fatum-00,-,C,-,-,UNIT TOKEN,2,2,-,(Triple Ship Alliance),-,<Blocker> (Rest this Unit to change the attack target to it.),T,11,1
+Gundam,-,C,-,-,UNIT TOKEN,3,3,-,(White Base Team),-,-,T,1,1
+Guncannon,-,C,-,-,UNIT TOKEN,2,2,-,(White Base Team),-,-,T,2,1
+Guntank,-,C,-,-,UNIT TOKEN,1,1,-,(White Base Team),-,-,T,3,1
+Leo,-,C,-,-,UNIT TOKEN,1,1,-,(OZ),-,-,T,4,1
+Tallgeese,-,C,-,-,UNIT TOKEN,4,2,-,(OZ),-,-,T,5,1
+Char's Zaku Ⅱ,-,C,-,-,UNIT TOKEN,3,1,-,(Zeon),-,-,T,6,1
+Zaku Ⅱ,-,C,-,-,UNIT TOKEN,1,1,-,(Zeon),-,-,T,7,1
+Aile Strike Gundam,-,C,-,-,UNIT TOKEN,3,3,-,(Earth Alliance),-,<Blocker> (Rest this Unit to change the attack target to it.),T,8,1
+Launcher Strike Gundam,-,C,-,-,UNIT TOKEN,2,4,-,(Earth Alliance),-,<Blocker> (Rest this Unit to change the attack target to it.),T,9,1
+Sword Strike Gundam,-,C,-,-,UNIT TOKEN,4,2,-,(Earth Alliance),-,<Blocker> (Rest this Unit to change the attack target to it.),T,10,1
+Gundam,-,C,-,-,UNIT TOKEN,3,3,-,(White Base Team),-,-,T,1,β
+Guncannon,-,C,-,-,UNIT TOKEN,2,2,-,(White Base Team),-,-,T,2,β
+Guntank,-,C,-,-,UNIT TOKEN,1,1,-,(White Base Team),-,-,T,3,β
+Char's Zaku Ⅱ,-,C,-,-,UNIT TOKEN,3,1,-,(Zeon),-,-,T,6,β
