@@ -33,9 +33,9 @@ def row_to_dict(row):
         "trait": row["trait"],
         "link": row["link"],
         "skill": row["skill"],
-        "set": row["set"],
-        "number": row["number"].zfill(3) if row["number"] else "",
-        "printing": row["printing"]
+        "set": row["source"],
+        "number": row["Card #"].zfill(3) if row["Card #"] else "",
+        "printing": row["edition"]
     }
 
 def sync_to_github():
