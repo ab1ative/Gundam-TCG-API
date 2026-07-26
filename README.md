@@ -2,6 +2,8 @@
 
 A REST API for accessing Gundam Card Game TCG card data. Returns card details, and supports filtering by color, type, name, AP, HP, and rarity. Currently the API only supports GD01, Beta, and ST01-04; you can help expand the API using POST commands to incorporate new cards into the database.
 
+This is a personal project
+
 **Base URL:** `https://gundam-tcg-api.onrender.com`
 
 > **Note:** This API is hosted on Render's free tier. If the service has been
@@ -9,13 +11,16 @@ A REST API for accessing Gundam Card Game TCG card data. Returns card details, a
 
 ## Quick Start
 
+The following, input into command prompt, will return a list of all red cards in the database:
+
 ```bash
 curl "https://gundam-tcg-api.onrender.com/cards?color=red"
 ```
 
 ## Endpoints
 
-Gundam TCG API supports GET, POST, DELETE, 
+Gundam TCG API supports GET, POST, PUT, and DELETE endpoints.
+
 |
  Method 
 |
@@ -115,8 +120,7 @@ The API will run at `http://127.0.0.1:5000`.
 
 ## Data
 
-Card data sourced from the Gundam TCG community spreadsheet. Covers sets ST01,
-ST02, ST03, ST04, and GD01.
+Thank you to the [deleted] Redditor who put this spreadsheet together, which I exported as a .csv and made into gundam.db: https://docs.google.com/spreadsheets/d/1bN1HV-gAkbjbuHfZTTQPNlRjwohG2zcEloiw1lOn-x0/edit?gid=913580340#gid=913580340.
 
 ## Built With
 
