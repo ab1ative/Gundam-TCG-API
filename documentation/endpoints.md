@@ -303,3 +303,177 @@ An array of all card objects in the specified set.
   "error": "Set not found"
 }
 ```
+
+---
+
+## POST /cards
+
+Creates a new card and adds it to the database.
+
+### Request Body
+
+Send a JSON object with the following fields. All fields are optional except `name`.
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `name` | string | **Required.** The card's name |
+| `color` | string | The card's color: `Red`, `Blue`, `Green`, or `White` |
+| `rarity` | string | The card's rarity, e.g. `C`, `U`, `R` |
+| `level` | string | The card's level |
+| `cost` | string | The resource cost to play the card |
+| `type` | string | The card type: `UNIT`, `PILOT`, `COMMAND`, or `BASE` |
+| `ap` | string | Attack Points. Use `-` if not applicable. |
+| `hp` | string | Hit Points. Use `-` if not applicable. |
+| `zone` | string | Deployment zone: `Space`, `Earth`, or `Space Earth` |
+| `trait` | string | Faction and keyword traits in parentheses |
+| `link` | string | Pilot name required to Link. Use `-` if not applicable. |
+| `skill` | string | The card's full effect text |
+| `source` | string | The set code, e.g. `GD01` |
+| `card_number` | string | The card's number within its set |
+| `edition` | string | Print edition: `1`, `β`, or `P` |
+
+### Example Request
+
+```bash
+curl -X POST https://gundam-tcg-api.onrender.com/cards \
+  -H "Content-Type: application/json" \
+  -d '{
+    "name": "RX-78-2 Gundam",
+    "color": "Blue",
+    "type": "UNIT",
+    "level": "3",
+    "cost": "3",
+    "ap": "3",
+    "hp": "3",
+    "zone": "Space Earth",
+    "trait": "(Earth Federation) (White Base Team)",
+    "source": "GD01"
+  }'
+```
+
+### Example Response
+
+```json
+{
+  "id": 501,
+  "name": "RX-78-2 Gundam",
+  "color": "Blue",
+  "type": "UNIT",
+  "level": "3",
+  "cost": "3",
+  "ap": "3",
+  "hp": "3",
+  "zone": "Space Earth",
+  "trait": "(Earth Federation) (White Base Team)",
+  "link": "",
+  "skill": "",
+  "source": "GD01",
+  "card_number": "",
+  "edition": "",
+  "rarity": ""
+}
+```
+
+### Returns
+
+The newly created card object with its assigned `id`. Returns HTTP 201 on success.
+
+---
+
+## PUT /cards/{id}
+
+Updates an existing card by its database ID. Only the fields you include in the request body will be updated — all other fields remain unchanged.
+
+### Path Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `id` | integer | Yes | The card's database ID |
+
+### Request Body
+
+A JSON object containing only the fields you want to update.
+
+### Example Request
+
+```bash
+curl -X PUT https://gundam-tcg-api.onrender.com/cards/501 \
+  -H "Content-Type: application/json" \
+  -d '{
+    "ap": "5",
+    "hp": "5"
+  }'
+```
+
+### Example Response
+
+```json
+{
+  "id": 501,
+  "name": "RX-78-2 Gundam",
+  "color": "Blue",
+  "type": "UNIT",
+  "level": "3",
+  "cost": "3",
+  "ap": "5",
+  "hp": "5",
+  "zone": "Space Earth",
+  "trait": "(Earth Federation) (White Base Team)",
+  "link": "",
+  "skill": "",
+  "source": "GD01",
+  "card_number": "",
+  "edition": "",
+  "rarity": ""
+}
+```
+
+### Returns
+
+The full updated card object. Returns 404 if the card ID does not exist.
+
+### Error Response
+
+```json
+{
+  "error": "Card not found"
+}
+```
+
+---
+
+## DELETE /cards/{id}
+
+Deletes a card from the database by its ID.
+
+### Path Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `id` | integer | Yes | The card's database ID |
+
+### Example Request
+
+```bash
+curl -X DELETE https://gundam-tcg-api.onrender.com/cards/501
+```
+
+### Example Response
+
+```json
+{
+  "message": "Card 501 deleted successfully"
+}
+```
+
+### Returns
+
+A confirmation message on success. Returns 404 if the card ID does not exist.
+
+### Error Response
+
+```json
+{
+  "error": "Card not found"
+}
+```
