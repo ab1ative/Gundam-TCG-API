@@ -1,5 +1,6 @@
 import sqlite3
 import os
+import base64
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
