@@ -34,6 +34,69 @@ def row_to_dict(row):
         "edition": row["edition"]
     }
 
+def sync_to_github():
+    token = os.environ.get('GITHUB_TOKEN')
+    repo = os.environ.get('GITHUB_REPO')
+    path = os.environ.get('GITHUB_CSV_PATH')
+    
+    if not token or not repo or not path:
+        print("GitHub sync not configured — skipping")
+        return
+    
+    # Get all cards from database
+    conn = get_db()
+    rows = conn.execute("SELECT * FROM cards").fetchall()
+    conn.close()
+    
+    # Write to CSV string
+    import io
+    import csv as csv_module
+    output = io.StringIO()
+    writer = csv_module.DictWriter(output, fieldnames=[
+        'Name', 'Color', 'Rarity', 'Level', 'Cost', 'Type',
+        'AP', 'HP', 'Zone', 'Trait', 'Link', 'Skill',
+        'Source', 'Card #', 'Edition'
+    ])
+    writer.writeheader()
+    for row in rows:
+        writer.writerow({
+            'Name': row['name'],
+            'Color': row['color'],
+            'Rarity': row['rarity'],
+            'Level': row['level'],
+            'Cost': row['cost'],
+            'Type': row['type'],
+            'AP': row['ap'],
+            'HP': row['hp'],
+            'Zone': row['zone'],
+            'Trait': row['trait'],
+            'Link': row['link'],
+            'Skill': row['skill'],
+            'Source': row['source'],
+            'Card #': row['card_number'],
+            'Edition': row['edition']
+        })
+    
+    csv_content = output.getvalue()
+    encoded = base64.b64encode(csv_content.encode('utf-8')).decode('utf-8')
+    
+    # Get current file SHA (required by GitHub API to update a file)
+    headers = {
+        'Authorization': f'Bearer {token}',
+        'Accept': 'application/vnd.github+json'
+    }
+    url = f'https://api.github.com/repos/{repo}/contents/{path}'
+    response = req.get(url, headers=headers)
+    sha = response.json().get('sha')
+    
+    # Commit updated CSV
+    req.put(url, headers=headers, json={
+        'message': 'Auto-update card data via API',
+        'content': encoded,
+        'sha': sha
+    })
+    print("Synced to GitHub successfully.")
+
 @app.route('/cards', methods=['GET'])
 def get_cards():
     color = request.args.get('color')
