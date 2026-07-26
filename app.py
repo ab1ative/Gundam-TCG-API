@@ -158,6 +158,7 @@ def create_card():
     new_id = conn.execute("SELECT last_insert_rowid()").fetchone()[0]
     row = conn.execute("SELECT * FROM cards WHERE id = ?", (new_id,)).fetchone()
     conn.close()
+    sync_to_github()
     return jsonify(row_to_dict(row)), 201
 
 @app.route('/cards/<int:card_id>', methods=['PUT'])
@@ -207,6 +208,7 @@ def update_card(card_id):
     conn.commit()
     updated = conn.execute("SELECT * FROM cards WHERE id = ?", (card_id,)).fetchone()
     conn.close()
+    sync_to_github()
     return jsonify(row_to_dict(updated))
 
 @app.route('/cards/<int:card_id>', methods=['DELETE'])
@@ -219,6 +221,7 @@ def delete_card(card_id):
     conn.execute("DELETE FROM cards WHERE id = ?", (card_id,))
     conn.commit()
     conn.close()
+    sync_to_github()
     return jsonify({"message": f"Card {card_id} deleted successfully"}), 200
 
 @app.route('/sets', methods=['GET'])
