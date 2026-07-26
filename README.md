@@ -1,7 +1,6 @@
 # Gundam Card Game TCG API
 
-A REST API for accessing Gundam Card Game TCG card data. Returns card details,
-set information, and supports filtering by color, type, and name.
+A REST API for accessing Gundam Card Game TCG card data. Returns card details, and supports filtering by color, type, name, AP, HP, and rarity. Currently the API only supports GD01, Beta, and ST01-04; you can help expand the API using POST commands to incorporate new cards into the database.
 
 **Base URL:** `https://gundam-tcg-api.onrender.com`
 
