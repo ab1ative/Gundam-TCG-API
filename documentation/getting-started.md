@@ -16,7 +16,7 @@ You need one of the following to make API requests:
 
 - **curl** — available in any terminal or command prompt
 - **Postman** — recommended for exploring the API interactively
-- Any HTTP client or programming language with HTTP support
+- Any HTTP client or programming language with HTTP support, including your web browser
 
 ## Your First Request
 
