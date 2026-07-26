@@ -38,6 +38,10 @@ def sync_to_github():
     token = os.environ.get('GITHUB_TOKEN')
     repo = os.environ.get('GITHUB_REPO')
     path = os.environ.get('GITHUB_CSV_PATH')
+
+    print(f"Token present: {bool(token)}")
+    print(f"Repo: {repo}")
+    print(f"Path: {path}")
     
     if not token or not repo or not path:
         print("GitHub sync not configured — skipping")
