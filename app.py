@@ -95,6 +95,12 @@ def sync_to_github():
         'content': encoded,
         'sha': sha
     })
+    result = req.put(url, headers=headers, json={
+        'message': 'Auto-update card data via API',
+        'content': encoded,
+        'sha': sha
+    })
+    print(f"GitHub sync response: {result.status_code} {result.text}")
     print("Synced to GitHub successfully.")
 
 @app.route('/cards', methods=['GET'])
