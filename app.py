@@ -150,6 +150,8 @@ def get_cards():
     conn = get_db()
     cards = [row_to_dict(row) for row in conn.execute(query, params)]
     conn.close()
+    if not cards:
+        return jsonify({"error": "No cards found matching the specified filters"}), 404
     return jsonify(cards)
 
 @app.route('/cards/<int:card_id>', methods=['GET'])
