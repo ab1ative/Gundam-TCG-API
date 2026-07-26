@@ -5,6 +5,9 @@ This guide walks you through making your first request to the Gundam Card Game T
 ## Base URL
 
 All API requests are made to: https://gundam-tcg-api.onrender.com
+
+## Authentication
+
 No authentication is required. All endpoints are publicly accessible.
 
 ## Prerequisites
