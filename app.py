@@ -119,6 +119,7 @@ def get_cards():
     level = request.args.get('level')
     ap = request.args.get('ap')
     hp = request.args.get('hp')
+    rarity = request.args.get('rarity')
     
     query = "SELECT * FROM cards WHERE 1=1"
     params = []
@@ -141,6 +142,9 @@ def get_cards():
     if hp:
         query += "AND hp = ?"
         params.append(hp)
+    if rarity:
+        query += "AND rarity = ?"
+        params.append(rarity)
     
     
     conn = get_db()
