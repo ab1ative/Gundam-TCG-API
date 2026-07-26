@@ -108,7 +108,7 @@ All responses are returned as JSON. Successful requests return either:
 | Code | Meaning |
 |------|---------|
 | 200 | Success |
-| 404 | Card or set not found |
+| 404 | No cards found matching the specified filters |
 | 500 | Server error |
 
 ## Next Steps
