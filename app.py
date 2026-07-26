@@ -33,9 +33,9 @@ def row_to_dict(row):
         "trait": row["trait"],
         "link": row["link"],
         "skill": row["skill"],
-        "source": row["source"],
+        "set": row["set"],
         "number": row["number"].zfill(3) if row["number"] else "",
-        "edition": row["edition"]
+        "printing": row["printing"]
     }
 
 def sync_to_github():
@@ -63,7 +63,7 @@ def sync_to_github():
     writer = csv_module.DictWriter(output, fieldnames=[
         'Name', 'Color', 'Rarity', 'Level', 'Cost', 'Type',
         'AP', 'HP', 'Zone', 'Trait', 'Link', 'Skill',
-        'Source', 'Card #', 'Edition'
+        'set', 'Card #', 'printing'
     ])
     writer.writeheader()
     for row in rows:
@@ -80,9 +80,9 @@ def sync_to_github():
             'Trait': row['trait'],
             'Link': row['link'],
             'Skill': row['skill'],
-            'Source': row['source'],
+            'set': row['set'],
             'Card #': row['number'],
-            'Edition': row['edition']
+            'printing': row['printing']
         })
     
     csv_content = output.getvalue()
@@ -159,7 +159,7 @@ def create_card():
     data = request.json
     conn = get_db()
     conn.execute('''
-        INSERT INTO cards (name, color, rarity, level, cost, type, ap, hp, zone, trait, link, skill, source, number, edition)
+        INSERT INTO cards (name, color, rarity, level, cost, type, ap, hp, zone, trait, link, skill, set, number, printing)
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     ''', (
         data.get('name', ''),
@@ -174,9 +174,9 @@ def create_card():
         data.get('trait', ''),
         data.get('link', ''),
         data.get('skill', ''),
-        data.get('source', ''),
+        data.get('set', ''),
         data.get('number', ''),
-        data.get('edition', '')
+        data.get('printing', '')
     ))
     conn.commit()
     new_id = conn.execute("SELECT last_insert_rowid()").fetchone()[0]
@@ -207,9 +207,9 @@ def update_card(card_id):
             trait = ?,
             link = ?,
             skill = ?,
-            source = ?,
+            set = ?,
             number = ?,
-            edition = ?
+            printing = ?
         WHERE id = ?
     ''', (
         data.get('name', row['name']),
@@ -224,9 +224,9 @@ def update_card(card_id):
         data.get('trait', row['trait']),
         data.get('link', row['link']),
         data.get('skill', row['skill']),
-        data.get('source', row['source']),
+        data.get('set', row['set']),
         data.get('number', row['number']),
-        data.get('edition', row['edition']),
+        data.get('printing', row['printing']),
         card_id
     ))
     conn.commit()
@@ -251,14 +251,14 @@ def delete_card(card_id):
 @app.route('/sets', methods=['GET'])
 def get_sets():
     conn = get_db()
-    rows = conn.execute("SELECT DISTINCT source FROM cards WHERE source != '' ORDER BY source").fetchall()
+    rows = conn.execute("SELECT DISTINCT set FROM cards WHERE set != '' ORDER BY set").fetchall()
     conn.close()
-    return jsonify([row['source'] for row in rows])
+    return jsonify([row['set'] for row in rows])
 
 @app.route('/sets/<set_code>/cards', methods=['GET'])
 def get_set_cards(set_code):
     conn = get_db()
-    rows = conn.execute("SELECT * FROM cards WHERE LOWER(source) = LOWER(?)", (set_code,)).fetchall()
+    rows = conn.execute("SELECT * FROM cards WHERE LOWER(set) = LOWER(?)", (set_code,)).fetchall()
     conn.close()
     if not rows:
         return jsonify({"error": "Set not found"}), 404
