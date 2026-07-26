@@ -21,13 +21,13 @@ def get_db():
 
 def row_to_dict(row):
     return {
+        "id": row["id"],
         "name": row["name"],
         "color": row["color"],
         "level": row["level"],
         "cost": row["cost"],
         "ap": row["ap"],
         "hp": row["hp"],
-        "id": row["id"],
         "type": row["type"],
         "rarity": row["rarity"],
         "trait": row["trait"],
