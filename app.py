@@ -34,7 +34,7 @@ def row_to_dict(row):
         "link": row["link"],
         "skill": row["skill"],
         "source": row["source"],
-        "card_number": row["card_number"].zfill(3) if row["card_number"] else "",
+        "number": row["number"].zfill(3) if row["number"] else "",
         "edition": row["edition"]
     }
 
@@ -81,7 +81,7 @@ def sync_to_github():
             'Link': row['link'],
             'Skill': row['skill'],
             'Source': row['source'],
-            'Card #': row['card_number'],
+            'Card #': row['number'],
             'Edition': row['edition']
         })
     
@@ -159,7 +159,7 @@ def create_card():
     data = request.json
     conn = get_db()
     conn.execute('''
-        INSERT INTO cards (name, color, rarity, level, cost, type, ap, hp, zone, trait, link, skill, source, card_number, edition)
+        INSERT INTO cards (name, color, rarity, level, cost, type, ap, hp, zone, trait, link, skill, source, number, edition)
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     ''', (
         data.get('name', ''),
@@ -175,7 +175,7 @@ def create_card():
         data.get('link', ''),
         data.get('skill', ''),
         data.get('source', ''),
-        data.get('card_number', ''),
+        data.get('number', ''),
         data.get('edition', '')
     ))
     conn.commit()
@@ -208,7 +208,7 @@ def update_card(card_id):
             link = ?,
             skill = ?,
             source = ?,
-            card_number = ?,
+            number = ?,
             edition = ?
         WHERE id = ?
     ''', (
@@ -225,7 +225,7 @@ def update_card(card_id):
         data.get('link', row['link']),
         data.get('skill', row['skill']),
         data.get('source', row['source']),
-        data.get('card_number', row['card_number']),
+        data.get('number', row['number']),
         data.get('edition', row['edition']),
         card_id
     ))
