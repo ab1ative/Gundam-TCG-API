@@ -34,7 +34,7 @@ def row_to_dict(row):
         "link": row["link"],
         "skill": row["skill"],
         "set": row["source"],
-        "number": row["Card #"].zfill(3) if row["Card #"] else "",
+        "number": row["card_number"].zfill(3) if row["card_number"] else "",
         "printing": row["edition"]
     }
 
