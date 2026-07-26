@@ -7,6 +7,7 @@ from flask import Flask, jsonify, request
 import requests as req
 
 app = Flask(__name__)
+app.json.sort_keys = False
 
 # Initialize database if it doesn't exist
 if not os.path.exists('gundam.db'):
@@ -21,14 +22,16 @@ def get_db():
 def row_to_dict(row):
     return {
         "name": row["name"],
-        "id": row["id"],
         "color": row["color"],
-        "rarity": row["rarity"],
         "level": row["level"],
         "cost": row["cost"],
-        "type": row["type"],
         "ap": row["ap"],
         "hp": row["hp"],
+        "id": row["id"],
+
+        "type": row["type"],
+
+        "rarity": row["rarity"],
         "zone": row["zone"],
         "trait": row["trait"],
         "link": row["link"],
