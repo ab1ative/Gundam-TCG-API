@@ -28,16 +28,13 @@ def row_to_dict(row):
         "ap": row["ap"],
         "hp": row["hp"],
         "id": row["id"],
-
         "type": row["type"],
-
         "rarity": row["rarity"],
-        "zone": row["zone"],
         "trait": row["trait"],
         "link": row["link"],
         "skill": row["skill"],
         "source": row["source"],
-        "card_number": row["card_number"],
+        "card_number": row["card_number"].zfill(3) if row["card_number"] else "",
         "edition": row["edition"]
     }
 
