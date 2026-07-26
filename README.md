@@ -15,7 +15,7 @@ curl "https://gundam-tcg-api.onrender.com/cards?color=red"
 
 ## Endpoints
 
-
+Gundam TCG API supports GET, POST, DELETE, 
 |
  Method 
 |
