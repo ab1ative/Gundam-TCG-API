@@ -183,9 +183,9 @@ def create_card():
         data.get('trait', ''),
         data.get('link', ''),
         data.get('skill', ''),
-        data.get('set', ''),
-        data.get('number', ''),
-        data.get('printing', '')
+        data.get('source', ''),
+        data.get('card_number', ''),
+        data.get('edition', '')
     ))
     conn.commit()
     new_id = conn.execute("SELECT last_insert_rowid()").fetchone()[0]
