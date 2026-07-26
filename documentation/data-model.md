@@ -42,6 +42,13 @@ Every card object returned by the API contains the following fields.
 -------------
 |
 |
+`id`
+|
+integer
+|
+Unique database identifier assigned automatically on creation
+|
+|
 `Name`
 |
  string 
