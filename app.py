@@ -80,9 +80,9 @@ def sync_to_github():
             'Trait': row['trait'],
             'Link': row['link'],
             'Skill': row['skill'],
-            'Set': row['set'],
-            'number': row['number'],
-            'Printing': row['printing']
+            'Set': row['source'],
+            'Number': row['card_number'],
+            'Printing': row['edition']
         })
     
     csv_content = output.getvalue()
