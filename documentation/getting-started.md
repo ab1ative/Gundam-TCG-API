@@ -49,9 +49,9 @@ curl "https://gundam-tcg-api.onrender.com/cards?color=red"
         "trait": "(ZAFT)",
         "link": "(ZAFT) Trait",
         "skill": "【Attack】If this Unit has 5 or more AP and it is attacking an enemy Unit, choose 1 enemy Unit. Deal 2 damage to it.",
-        "source": "GD01",
-        "card_number": "050",
-        "edition": "1"
+        "set": "GD01",
+        "number": "050",
+        "printing": "1"
     },
 ]
 ```
@@ -82,9 +82,9 @@ This returns all red unit cards.
         "trait": "(Neo Zeon)",
         "link": "[Marida Cruz]",
         "skill": "【When Paired･(Cyber-Newtype)/(Newtype) Pilot】Choose 1 to 2 enemy Units. Deal 1 damage to them.",
-        "source": "GD01",
-        "card_number": "044",
-        "edition": "1"
+        "set": "GD01",
+        "number": "044",
+        "printing": "1"
     }
 ]
 ```
