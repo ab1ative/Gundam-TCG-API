@@ -129,6 +129,16 @@ def get_cards():
     if name:
         query += " AND LOWER(name) LIKE LOWER(?)"
         params.append(f"%{name}%")
+    if level:
+        query += " AND level = ?"
+        params.append(level)
+    if ap:
+        query += " AND ap = ?"
+        params.append(ap)
+    if hp:
+        query += "AND hp = ?"
+        params.append(hp)
+    
     
     conn = get_db()
     cards = [row_to_dict(row) for row in conn.execute(query, params)]
