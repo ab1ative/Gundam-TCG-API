@@ -63,7 +63,7 @@ def sync_to_github():
     writer = csv_module.DictWriter(output, fieldnames=[
         'Name', 'Color', 'Rarity', 'Level', 'Cost', 'Type',
         'AP', 'HP', 'Zone', 'Trait', 'Link', 'Skill',
-        'set', 'Card #', 'printing'
+        'set', 'number', 'printing'
     ])
     writer.writeheader()
     for row in rows:
@@ -80,9 +80,9 @@ def sync_to_github():
             'Trait': row['trait'],
             'Link': row['link'],
             'Skill': row['skill'],
-            'set': row['set'],
-            'Card #': row['number'],
-            'printing': row['printing']
+            'Set': row['set'],
+            'number': row['number'],
+            'Printing': row['printing']
         })
     
     csv_content = output.getvalue()
@@ -116,6 +116,9 @@ def get_cards():
     color = request.args.get('color')
     card_type = request.args.get('type')
     name = request.args.get('name')
+    level = request.args.get('level')
+    ap = request.args.get('ap')
+    hp = request.args.get('hp')
     
     query = "SELECT * FROM cards WHERE 1=1"
     params = []
