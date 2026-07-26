@@ -21,6 +21,10 @@ curl "https://gundam-tcg-api.onrender.com/cards?color=red"
 
 Gundam TCG API supports GET, POST, PUT, and DELETE endpoints.
 
+GET returns an array of cards in the database matching user-chosen parameters.
+POST creates a new card with a unique id at the end of the database based on JSON code.
+PUT revises a card 
+
 |
  Method 
 |
