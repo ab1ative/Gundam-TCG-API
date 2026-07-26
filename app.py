@@ -63,7 +63,7 @@ def sync_to_github():
     writer = csv_module.DictWriter(output, fieldnames=[
         'Name', 'Color', 'Rarity', 'Level', 'Cost', 'Type',
         'AP', 'HP', 'Zone', 'Trait', 'Link', 'Skill',
-        'set', 'number', 'printing'
+        'Source', 'Card #', 'Edition'
     ])
     writer.writeheader()
     for row in rows:
@@ -80,9 +80,9 @@ def sync_to_github():
             'Trait': row['trait'],
             'Link': row['link'],
             'Skill': row['skill'],
-            'Set': row['source'],
-            'Number': row['card_number'],
-            'Printing': row['edition']
+            'source': row['source'],
+            'card_number': row['card_number'],
+            'edition': row['edition']
         })
     
     csv_content = output.getvalue()
