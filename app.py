@@ -20,8 +20,8 @@ def get_db():
 
 def row_to_dict(row):
     return {
-        "id": row["id"],
         "name": row["name"],
+        "id": row["id"],
         "color": row["color"],
         "rarity": row["rarity"],
         "level": row["level"],
