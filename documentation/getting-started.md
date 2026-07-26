@@ -37,21 +37,22 @@ curl "https://gundam-tcg-api.onrender.com/cards?color=red"
 ```json
 [
   {
-    "AP": "3",
-    "Color": "Red",
-    "Cost": "2",
-    "Edition": "1",
-    "HP": "3",
-    "Level": "3",
-    "Link": "-",
-    "Name": "Char's Zaku II",
-    "Rarity": "R",
-    "Skill": "【Deploy】...",
-    "Source": "ST03",
-    "Trait": "(Zeon) (Newtype)",
-    "Type": "UNIT",
-    "Zone": "Space"
-  }
+        "name": "LaGOWE",
+        "color": "Red",
+        "level": "3",
+        "cost": "2",
+        "ap": "2",
+        "hp": "3",
+        "id": 256,
+        "type": "UNIT",
+        "rarity": "R",
+        "trait": "(ZAFT)",
+        "link": "(ZAFT) Trait",
+        "skill": "【Attack】If this Unit has 5 or more AP and it is attacking an enemy Unit, choose 1 enemy Unit. Deal 2 damage to it.",
+        "source": "GD01",
+        "card_number": "050",
+        "edition": "1"
+    },
 ]
 ```
 
@@ -64,6 +65,29 @@ curl "https://gundam-tcg-api.onrender.com/cards?color=red&type=unit"
 ```
 
 This returns all red unit cards.
+
+**Response**
+```json
+[
+    {
+        "name": "Kshatriya",
+        "color": "Red",
+        "level": "5",
+        "cost": "4",
+        "ap": "5",
+        "hp": "4",
+        "id": 246,
+        "type": "UNIT",
+        "rarity": "LR",
+        "trait": "(Neo Zeon)",
+        "link": "[Marida Cruz]",
+        "skill": "【When Paired･(Cyber-Newtype)/(Newtype) Pilot】Choose 1 to 2 enemy Units. Deal 1 damage to them.",
+        "source": "GD01",
+        "card_number": "044",
+        "edition": "1"
+    }
+]
+```
 
 ## Response Format
 
