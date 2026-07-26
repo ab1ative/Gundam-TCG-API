@@ -1,7 +1,13 @@
 import sqlite3
+import os
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
+
+# Initialize database if it doesn't exist
+if not os.path.exists('gundam.db'):
+    import database
+    database.init_db()
 
 def get_db():
     conn = sqlite3.connect('gundam.db')
