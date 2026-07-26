@@ -168,7 +168,7 @@ def create_card():
     data = request.json
     conn = get_db()
     conn.execute('''
-        INSERT INTO cards (name, color, rarity, level, cost, type, ap, hp, zone, trait, link, skill, set, number, printing)
+        INSERT INTO cards (name, color, rarity, level, cost, type, ap, hp, zone, trait, link, skill, source, card_number, edition)
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     ''', (
         data.get('name', ''),
