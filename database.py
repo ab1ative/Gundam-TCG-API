@@ -55,6 +55,13 @@ def init_db():
     
     conn.commit()
     conn.close()
+
+    #debug
+    conn2 = sqlite3.connect('gundam.db')
+    count = conn2.execute("SELECT COUNT(*) FROM cards").fetchone()[0]
+    conn2.close()
+    print(f"Database initialized with {count} cards")
+    
     print("Database initialized successfully.")
 
 if __name__ == '__main__':
