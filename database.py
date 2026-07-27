@@ -4,10 +4,13 @@ import csv
 def init_db():
     conn = sqlite3.connect('gundam.db')
     c = conn.cursor()
+
+    # Drop and recreate to ensure fresh rebuild from CSV
+    c.execute('DROP TABLE IF EXISTS cards')
     
     # Create the cards table
     c.execute('''
-        CREATE TABLE IF NOT EXISTS cards (
+        CREATE TABLE cards (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             name TEXT,
             color TEXT,
@@ -55,12 +58,6 @@ def init_db():
     
     conn.commit()
     conn.close()
-
-    #debug
-    conn2 = sqlite3.connect('gundam.db')
-    count = conn2.execute("SELECT COUNT(*) FROM cards").fetchone()[0]
-    conn2.close()
-    print(f"Database initialized with {count} cards")
     
     print("Database initialized successfully.")
 
