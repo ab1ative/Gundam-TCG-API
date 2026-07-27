@@ -215,9 +215,9 @@ def update_card(card_id):
             trait = ?,
             link = ?,
             skill = ?,
-            set = ?,
-            number = ?,
-            printing = ?
+            source = ?,
+            card_number = ?,
+            edition = ?
         WHERE id = ?
     ''', (
         data.get('name', row['name']),
@@ -232,7 +232,7 @@ def update_card(card_id):
         data.get('trait', row['trait']),
         data.get('link', row['link']),
         data.get('skill', row['skill']),
-        data.get('source', row['source']),
+        data.get('set', row['source']),
         data.get('number', row['card_number']),
         data.get('printing', row['edition']),
         card_id
