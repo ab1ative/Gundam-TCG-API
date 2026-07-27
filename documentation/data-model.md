@@ -14,13 +14,12 @@ Every card object returned by the API contains the following fields.
   "Type": "BASE",
   "AP": "-",
   "HP": "5",
-  "Zone": "Space Earth",
   "Trait": "(Earth Federation) (White Base Team) (Warship)",
   "Link": "-",
   "Skill": "【Burst】Deploy this card...",
-  "Source": "ST01",
-  "Card #": "ST01-015",
-  "Edition": "1"
+  "Set": "ST01",
+  "Number": "015",
+  "Printing": "1"
 }
 ```
 
