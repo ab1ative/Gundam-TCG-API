@@ -182,7 +182,7 @@ def create_card():
         data.get('trait', ''),
         data.get('link', ''),
         data.get('skill', ''),
-        data.get('source', ''),
+        data.get('set', ''),
         data.get('card_number', ''),
         data.get('edition', '')
     ))
