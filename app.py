@@ -233,7 +233,7 @@ def update_card(card_id):
         data.get('trait', row['trait']),
         data.get('link', row['link']),
         data.get('skill', row['skill']),
-        data.get('set', row['source']),
+        data.get('source', row['source']),
         data.get('number', row['card_number']),
         data.get('printing', row['edition']),
         card_id
