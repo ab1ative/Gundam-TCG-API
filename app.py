@@ -9,10 +9,9 @@ import requests as req
 app = Flask(__name__)
 app.json.sort_keys = False
 
-# Initialize database if it doesn't exist
-if not os.path.exists('gundam.db'):
-    import database
-    database.init_db()
+# Initialize database
+import database
+database.init_db()
 
 def get_db():
     conn = sqlite3.connect('gundam.db')
