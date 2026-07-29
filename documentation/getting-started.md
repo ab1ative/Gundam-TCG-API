@@ -114,4 +114,4 @@ All responses are returned as JSON. Successful requests return either:
 ## Next Steps
 
 - See [Endpoints](endpoints.md) for the full API reference
-- See [Data Model](data-model.md) for a description of every card field****
+- See [Data Model](data-model.md) for a description of every card field
