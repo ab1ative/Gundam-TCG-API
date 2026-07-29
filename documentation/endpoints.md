@@ -1,4 +1,3 @@
-markdown
 # API Reference
 
 Complete reference for all Gundam Card Game TCG API endpoints.
