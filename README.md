@@ -25,89 +25,26 @@ GET returns an array of cards in the database matching user-chosen parameters.
 POST creates a new card with a unique id at the end of the database based on JSON code.
 PUT revises a card 
 
-|
- Method 
-|
- Endpoint 
-|
- Description 
-|
-|
---------
-|
-----------
-|
--------------
-|
-|
- GET 
-|
-`/cards`
-|
- Returns all cards, with optional filters 
-|
-|
- GET 
-|
-`/cards/{name}`
-|
- Returns a specific card by exact name 
-|
-|
- GET 
-|
-`/sets`
-|
- Returns all available set codes 
-|
-|
- GET 
-|
-`/sets/{set_code}/cards`
-|
- Returns all cards in a set 
-|
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/cards` | Returns all cards, with optional filters |
+| GET | `/cards/{id}` | Returns a specific card by database ID |
+| POST | `/cards` | Creates a new card |
+| PUT | `/cards/{id}` | Updates an existing card |
+| DELETE | `/cards/{id}` | Deletes a card |
+| GET | `/sets` | Returns all available set codes |
+| GET | `/sets/{set_code}/cards` | Returns all cards in a set |
 
 ## Filtering
 
-The `/cards` endpoint supports query parameters:
+The `/cards` endpoint supports the following query parameters:
 
-
-|
- Parameter 
-|
- Description 
-|
- Example 
-|
-|
------------
-|
--------------
-|
----------
-|
-|
-`color`
-|
- Filter by card color 
-|
-`?color=red`
-|
-|
-`type`
-|
- Filter by card type 
-|
-`?type=unit`
-|
-|
-`name`
-|
- Search by partial name 
-|
-`?name=gundam`
-|
+| Parameter | Description | Example |
+|-----------|-------------|---------|
+| `color` | Filter by card color | `?color=red` |
+| `type` | Filter by card type | `?type=unit` |
+| `name` | Search by partial name | `?name=gundam` |
+| `level` | Filter by level | `?level=3` |
 
 ## Running Locally
 
@@ -130,4 +67,5 @@ Thank you to the [deleted] Redditor who put this spreadsheet together, which I e
 
 - Python
 - Flask
+- SQLite
 - Deployed on Render
