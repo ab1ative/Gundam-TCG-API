@@ -14,51 +14,12 @@ and name.
 ### Query Parameters
 
 
-|
- Parameter 
-|
- Type 
-|
- Required 
-|
- Description 
-|
-|
------------
-|
-------
-|
-----------
-|
--------------
-|
-|
-`color`
-|
- string 
-|
- No 
-|
- Filter by card color. Case-insensitive. 
-|
-|
-`type`
-|
- string 
-|
- No 
-|
- Filter by card type. Case-insensitive. 
-|
-|
-`name`
-|
- string 
-|
- No 
-|
- Search by partial card name. Case-insensitive. 
-|
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `color` | string | No | Filter by card color. Case-insensitive. |
+| `type` | string | No | Filter by card type. Case-insensitive. |
+| `name` | string | No | Search by partial card name. Case-insensitive. |
+| `level` | string | No | Filter by card level. Exact match. |
 
 ### Example Requests
 
@@ -92,21 +53,21 @@ curl "https://gundam-tcg-api.onrender.com/cards?color=green&type=unit"
 ```json
 [
   {
-    "AP": "3",
-    "Card #": "GD01-001",
-    "Color": "Green",
-    "Cost": "2",
-    "Edition": "1",
-    "HP": "3",
-    "Level": "3",
-    "Link": "Pilot Name",
     "Name": "Heavyarms",
+    "Id": 1,
+    "Color": "Green",
     "Rarity": "R",
-    "Skill": "【Deploy】Choose 1 enemy Unit with 3 or less HP. Deal 2 damage to it.",
-    "Source": "GD01",
-    "Trait": "(Operation Meteor)",
+    "Level": "3",
+    "Cost": "2",
     "Type": "UNIT",
-    "Zone": "Space Earth"
+    "AP": "3",
+    "HP": "3",
+    "Trait": "(Operation Meteor)",
+    "Link": "(Operation Meteor) Trait",
+    "Skill": "【Deploy】Choose 1 enemy Unit with 3 or less HP. Deal 2 damage to it.",
+    "Set": "GD01",
+    "Number": "001",
+    "Printing": "1"
   }
 ]
 ```
@@ -116,84 +77,30 @@ curl "https://gundam-tcg-api.onrender.com/cards?color=green&type=unit"
 An array of card objects matching the specified filters. Returns all cards if
 no filters are provided. Returns an empty array if no cards match.
 
----
-
-## GET /cards/{name}
-
-Returns a single card by exact name match.
-
-### Path Parameters
-
-
-|
- Parameter 
-|
- Type 
-|
- Required 
-|
- Description 
-|
-|
------------
-|
-------
-|
-----------
-|
--------------
-|
-|
-`name`
-|
- string 
-|
- Yes 
-|
- The exact name of the card. Case-insensitive. 
-|
-
-### Example Request
-
-```bash
-curl "https://gundam-tcg-api.onrender.com/cards/White Base"
-```
-
-### Example Response
-
-```json
-[
-  {
-    "AP": "-",
-    "Card #": "ST01-015",
-    "Color": "Blue",
-    "Cost": "2",
-    "Edition": "1",
-    "HP": "5",
-    "Level": "3",
-    "Link": "-",
-    "Name": "White Base",
-    "Rarity": "C",
-    "Skill": "【Burst】Deploy this card. 【Deploy】Add 1 of your Shields to your hand. 【Activate･Main】【Once per Turn】②：Deploy 1 [Gundam] Unit token if you have 0 Units in play.",
-    "Source": "ST01",
-    "Trait": "(Earth Federation) (White Base Team) (Warship)",
-    "Type": "BASE",
-    "Zone": "Space Earth"
-  }
-]
-```
-
-### Returns
-
-An array of matching card objects. Returns multiple results if the same card
-name appears across different sets or editions.
-
 ### Error Response
 
 ```json
 {
-  "error": "Card not found"
+  "error": "No cards found matching the specified filters"
 }
+```
+
+---
+
+## GET /cards/{id}
+
+Returns a single card by its database ID.
+
+### Path Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `id` | integer | Yes | The card's database ID. |
+
+### Example Request
+
+```bash
+curl "https://gundam-tcg-api.onrender.com/cards/15"
 ```
 
 ---
@@ -208,22 +115,6 @@ Returns a sorted list of all available set codes.
 curl "https://gundam-tcg-api.onrender.com/sets"
 ```
 
-### Example Response
-
-```json
-[
-  "GD01",
-  "ST01",
-  "ST02",
-  "ST03",
-  "ST04"
-]
-```
-
-### Returns
-
-A sorted array of set code strings.
-
 ---
 
 ## GET /sets/{set_code}/cards
@@ -232,75 +123,14 @@ Returns all cards belonging to a specific set.
 
 ### Path Parameters
 
-
-|
- Parameter 
-|
- Type 
-|
- Required 
-|
- Description 
-|
-|
------------
-|
-------
-|
-----------
-|
--------------
-|
-|
-`set_code`
-|
- string 
-|
- Yes 
-|
- The set code. Case-insensitive. 
-|
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `set_code` | string | Yes | The set code. Case-insensitive. |
 
 ### Example Request
 
 ```bash
 curl "https://gundam-tcg-api.onrender.com/sets/GD01/cards"
-```
-
-### Example Response
-
-```json
-[
-  {
-    "AP": "-",
-    "Card #": "GD01-099",
-    "Color": "Blue",
-    "Cost": "2",
-    "Edition": "1",
-    "HP": "-",
-    "Level": "4",
-    "Link": "-",
-    "Name": "Intercept Orders",
-    "Rarity": "R",
-    "Skill": "【Burst】Choose 1 enemy Unit with 5 or less HP. Rest it. 【Main】/【Action】Choose 1 to 2 enemy Units with 3 or less HP. Rest them.",
-    "Source": "GD01",
-    "Trait": "-",
-    "Type": "COMMAND",
-    "Zone": "-"
-  }
-]
-```
-
-### Returns
-
-An array of all card objects in the specified set.
-
-### Error Response
-
-```json
-{
-  "error": "Set not found"
-}
 ```
 
 ---
@@ -327,9 +157,9 @@ Send a JSON object with the following fields. All fields are optional except `na
 | `trait` | string | Faction and keyword traits in parentheses |
 | `link` | string | Pilot name required to Link. Use `-` if not applicable. |
 | `skill` | string | The card's full effect text |
-| `source` | string | The set code, e.g. `GD01` |
-| `card_number` | string | The card's number within its set |
-| `edition` | string | Print edition: `1`, `β`, or `P` |
+| `set` | string | The set code, e.g. `GD01` |
+| `number` | string | The card's number within its set |
+| `printing` | string | Print edition: `1`, `β`, or `P` |
 
 ### Example Request
 
@@ -344,9 +174,8 @@ curl -X POST https://gundam-tcg-api.onrender.com/cards \
     "cost": "3",
     "ap": "3",
     "hp": "3",
-    "zone": "Space Earth",
     "trait": "(Earth Federation) (White Base Team)",
-    "source": "GD01"
+    "set": "GD01"
   }'
 ```
 
@@ -354,22 +183,21 @@ curl -X POST https://gundam-tcg-api.onrender.com/cards \
 
 ```json
 {
-  "id": 501,
-  "name": "RX-78-2 Gundam",
-  "color": "Blue",
-  "type": "UNIT",
-  "level": "3",
-  "cost": "3",
-  "ap": "3",
-  "hp": "3",
-  "zone": "Space Earth",
-  "trait": "(Earth Federation) (White Base Team)",
-  "link": "",
-  "skill": "",
-  "source": "GD01",
-  "card_number": "",
-  "edition": "",
-  "rarity": ""
+  "Name": "RX-78-2 Gundam",
+  "Id": 501,
+  "Color": "Blue",
+  "Type": "UNIT",
+  "Level": "3",
+  "Cost": "3",
+  "AP": "3",
+  "HP": "3",
+  "Trait": "(Earth Federation) (White Base Team)",
+  "Link": "",
+  "Skill": "",
+  "Set": "GD01",
+  "Number": "",
+  "Orinting": "",
+  "Rarity": ""
 }
 ```
 
@@ -381,7 +209,7 @@ The newly created card object with its assigned `id`. Returns HTTP 201 on succes
 
 ## PUT /cards/{id}
 
-Updates an existing card by its database ID. Only the fields you include in the request body will be updated — all other fields remain unchanged.
+Updates an existing card by its database ID. Only the fields included in the request body will be updated. All other fields remain unchanged.
 
 ### Path Parameters
 
@@ -408,22 +236,21 @@ curl -X PUT https://gundam-tcg-api.onrender.com/cards/501 \
 
 ```json
 {
-  "id": 501,
-  "name": "RX-78-2 Gundam",
-  "color": "Blue",
-  "type": "UNIT",
-  "level": "3",
-  "cost": "3",
-  "ap": "5",
-  "hp": "5",
-  "zone": "Space Earth",
-  "trait": "(Earth Federation) (White Base Team)",
-  "link": "",
-  "skill": "",
-  "source": "GD01",
-  "card_number": "",
-  "edition": "",
-  "rarity": ""
+  "Name": "RX-78-2 Gundam",
+  "Id": 501,
+  "Color": "Blue",
+  "Type": "UNIT",
+  "Level": "3",
+  "Cost": "3",
+  "AP": "5",
+  "HP": "5",
+  "Trait": "(Earth Federation) (White Base Team)",
+  "Link": "",
+  "Skill": "",
+  "Set": "GD01",
+  "Number": "",
+  "Printing": "",
+  "Rarity": ""
 }
 ```
 
